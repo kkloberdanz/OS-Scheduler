@@ -1,17 +1,12 @@
-CFLAGS = -std=gnu++11
-#fcfs: Job.o
-	##g++ -o fcfs fcfs.cpp Job.cpp -DDEBUG -std=gnu++11
-	#g++ -o fcfs Build/fcfs.o  Build/Job.o $(CFLAGS)
+# Debug
+#CFLAGS = -std=gnu++11 -Wall -Wextra -Wpedantic -DDEBUG -O0
 
-#Job.o: Job.hpp
-	#g++ -o Build/Job.o Job.cpp $(CFLAGS) 
-
-#fcfs.o: Job.hpp
-	#g++ -o Build/fcfs.o -c fcfs.cpp $(CFLAGS) 
+# Production
+CFLAGS = -std=gnu++11 -Wall -Wextra -Wpedantic -O2
 
 all:
-	g++ -o Bin/fcfs fcfs.cpp Job.cpp helpers.cpp
-	g++ -o Bin/sjf  sjf.cpp  Job.cpp helpers.cpp
+	#g++ -o Bin/fcfs fcfs.cpp Job.cpp helpers.cpp $(CFLAGS)
+	g++ -o Bin/sjf  sjf.cpp  Job.cpp helpers.cpp $(CFLAGS)
 
 clean:
 	rm -rf Bin/*
