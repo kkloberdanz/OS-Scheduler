@@ -34,6 +34,8 @@ class Job {
     Min_heap<job> min_h;
 
     void print_job_heap();
+
+    size_t total_jobs;
   public:
 
     Job();

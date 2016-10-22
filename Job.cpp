@@ -17,6 +17,7 @@ void Job::build_from_file(const char* filename) {
     // first line of input file will be the number of jobs
     getline(input_file, line);
     //const size_t number_of_jobs = as_int(line);
+    total_jobs = as_int(line);
 
     // Read from input file
     size_t order = 0;
@@ -54,8 +55,13 @@ void Job::run() {
 }
 
 void Job::print_avg_time(size_t t_turnaround, size_t t_total_response) {
-    printf("%.5f\n", (t_turnaround / jobs_v.size()));
-    printf("%.5f\n", (t_total_response / jobs_v.size()));
+
+    std::cout << "t_total_response = " << t_total_response << std::endl;
+    std::cout << "t_turnaround = " << t_turnaround << std::endl;
+    std::cout << "total_jobs = " << total_jobs << std::endl;
+
+    printf("%.5f\n", (t_turnaround / total_jobs));
+    printf("%.5f\n", (t_total_response / total_jobs));
 }
 
 void Job::run_fcfs() {
@@ -85,7 +91,7 @@ void Job::run_fcfs() {
 
 void Job::print_job_heap() {
     struct job j;
-    while (!min_h.is_empty()) {
+    while (!min_h.empty()) {
         j = min_h.get_front();
         std::cout << "t_arrival  : " << j.t_arrival << std::endl;
         std::cout << "t_execution: " << j.t_execution << std::endl;
@@ -101,26 +107,22 @@ void Job::run_sjf() {
     size_t t_total_response = 0;
 
     //std::vector<job>::iterator jobs_v_begin = jobs_v.begin();
-    std::cout << "here0" << std::endl;
-    //print_jobs();
-    while ((not min_h.is_empty()) || (not jobs_v.empty()) ) {
-        //current_job = jobs_v.front();
-        current_job = jobs_v[jobs_v.size()];
-        print_job(current_job);
+    std::cout << "all jobs:" << std::endl;
+    print_jobs();
+    std::cout << "----------" << std::endl;
+    while ((not min_h.empty()) || (not jobs_v.empty()) ) {
 
-        // pop front of vector
-        //jobs_v.erase(jobs_v_begin);
-        jobs_v.pop_back();
-
-        min_h.add(current_job);
-        //std::cout << "here1" << std::endl;
-
-        if (not jobs_v.empty()) {
+        if (not min_h.empty() && not jobs_v.empty()) {
             get_jobs(t_current);
-        } 
+        } else if ((not jobs_v.empty()) && (min_h.empty())) {
+            t_current = jobs_v.at(jobs_v.size() - 1).t_arrival;
+            get_jobs(t_current);
+        }
 
         current_job = min_h.get_front();
         min_h.pop();
+
+        print_job(current_job);
 
         if (current_job.t_arrival > t_current) {
             t_current = current_job.t_arrival;
@@ -129,15 +131,18 @@ void Job::run_sjf() {
         t_total_response += t_current - current_job.t_arrival;
         t_current        += current_job.t_execution;
         t_turnaround     += t_current - current_job.t_arrival;
+
+
     } 
     print_avg_time(t_total_response, t_turnaround);
 }
 
 void Job::get_jobs(size_t t_current) {
     while ((not jobs_v.empty()) && 
-            //jobs_v[jobs_v.size()].t_arrival <= first_job.t_arrival) {
-            jobs_v[jobs_v.size()].t_arrival <= t_current) {
-        min_h.add(jobs_v[jobs_v.size()]);
+            jobs_v.back().t_arrival <= t_current) {
+
+            std::cout << "here" << std::endl;
+        min_h.add(jobs_v.at(jobs_v.size()-1));
         jobs_v.pop_back();
     }
 }
@@ -160,27 +165,31 @@ void Job::stfc_sort() {
 }
 
 bool Job::fcfs_sort_by(struct job j1, struct job j2) {
-    /*
     if (j1.t_arrival == j2.t_arrival) {
         return j1.order < j2.order;
     } else {
         return j1.t_arrival < j2.t_arrival;
     }
-    */
-    if (j1.t_arrival == j2.t_arrival) {
-        return j1.order > j2.order;
-    } else {
-        return j1.t_arrival > j2.t_arrival;
-    }
 }
 
 bool Job::sjf_sort_by(struct job j1, struct job j2) { 
+    /*
     if ((j1.t_arrival != j2.t_arrival) && 
         (j1.t_execution == j2.t_execution)) {
         return j1.t_arrival < j2.t_arrival;
     } else {
         return j1.t_execution < j2.t_execution;
     }
+    */
+    /*
+    if ((j1.t_arrival != j2.t_arrival) && 
+        (j1.t_execution == j2.t_execution)) {
+        return j1.t_arrival > j2.t_arrival;
+    } else {
+        return j1.t_execution > j2.t_execution;
+    }
+    */
+    return j1.t_arrival > j2.t_arrival;
 }
 
     /*

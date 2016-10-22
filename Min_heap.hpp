@@ -26,17 +26,27 @@ class Min_heap {
 
     void add(std::vector<T> v) {
         for (T item : v) {
-            add_to_heap(item);
+            add(item);
         } 
     }
 
     void pop() {
-        std::pop_heap(heap_v.begin(), heap_v.end(), compare); 
-        heap_v.pop_back();
+        if (not heap_v.empty()) {
+            std::pop_heap(heap_v.begin(), heap_v.end(), compare); 
+            heap_v.pop_back();
+        } else {
+            std::cout << "Min_heap error: popping an empty heap" 
+                << std::endl;
+            std::exit(EXIT_FAILURE);
+        }
     }
 
-    bool is_empty() {
+    bool empty() {
         return heap_v.empty();
+    }
+
+    size_t size() {
+        return heap_v.size();
     }
 
   private:
