@@ -16,8 +16,20 @@ class Min_heap {
     }
 
     T get_front() {
+        if (heap_v.empty()) {
+            std::cout << "error: peeking at an empty heap" << std::endl;
+            std::exit(EXIT_FAILURE);
+        }
         return heap_v.front();
     }
+
+    T peek() {
+        if (heap_v.empty()) {
+            std::cout << "error: peeking at an empty heap" << std::endl;
+            std::exit(EXIT_FAILURE);
+        }
+        return get_front();
+    } 
 
     void add(T item) { 
         heap_v.push_back(item); 

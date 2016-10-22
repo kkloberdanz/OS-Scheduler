@@ -38,6 +38,7 @@ void Job::push_job(size_t order, size_t t_arrival, size_t t_execution) {
     j.t_arrival = t_arrival;
     j.t_execution = t_execution;
     j.order = order;
+    j.t_exe_d = t_execution;
 
     jobs_v.push_back(j);
 }
@@ -78,10 +79,6 @@ void Job::run_fcfs() {
 #endif
     } 
     print_avg_time(t_turnaround, t_total_response);
-    /*
-    printf("%.5f\n", (t_turnaround / jobs_v.size()));
-    printf("%.5f\n", (t_total_response / jobs_v.size()));
-    */
 }
 
 void Job::print_job_heap() {
@@ -130,6 +127,8 @@ void Job::run_sjf() {
 }
 
 void Job::get_jobs(size_t t_current) {
+    //std::cout << "current time: " << t_current << std::endl;
+    //std::cout << "job arrival time: " << jobs_v.back().t_arrival << std::endl;
     while ((not jobs_v.empty()) && 
             jobs_v.back().t_arrival <= t_current) {
 
@@ -139,9 +138,60 @@ void Job::get_jobs(size_t t_current) {
     }
 }
 
-void Job::run_stcf
+void Job::run_stcf() {
+    stcf_sort(); 
+    struct job current_job;
+    size_t t_current = 0;
+    size_t t_turnaround = 0;
+    size_t t_total_response = 0;
+
+    print_jobs();
+
+    std::cout << "Running stcf" << std::endl;
+    while ((not min_h.empty()) || (not jobs_v.empty()) ) {
+
+        //std::cout << "if jobs_v.empty()" << std::endl;
+        if (not jobs_v.empty()) {
+            get_jobs(t_current);
+        }
+
+        if (not min_h.empty()) {
+
+            if (not min_h.peek().started) {
+                t_total_response += t_current - current_job.t_arrival;
+                std::cout << "RESPONSE: " << t_total_response << std::endl;
+
+                struct job tmp_job = min_h.peek();
+                min_h.pop();
+                tmp_job.started = true;
+                min_h.add(tmp_job);
+            }
+
+            auto prev_job = current_job;
+            current_job = min_h.peek();
+            min_h.pop();
+
+            if (prev_job.order != current_job.order) {
+                print_job(current_job);
+            } 
+
+            if (current_job.t_exe_d == 0) { 
+                t_turnaround += t_current - current_job.t_arrival; 
+                std::cout << "TURNAROUND: " << t_turnaround << std::endl;
+
+                std::cout << "----------------" << std::endl;
+            } else {
+                current_job.t_exe_d--;
+                min_h.add(current_job);
+            }
+        }
+        t_current++;
+    }
+    print_avg_time(t_turnaround, t_total_response);
+}
 
 void Job::print_job(struct job j) {
+    std::cout << "order      : " << j.order << std::endl;
     std::cout << "t_arrival  : " << j.t_arrival << std::endl;
     std::cout << "t_execution: " << j.t_execution << std::endl;
 }

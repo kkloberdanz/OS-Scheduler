@@ -19,6 +19,7 @@ class Job {
         size_t t_execution; 
         size_t order;
 
+        size_t t_exe_d;
         bool started; 
     };
 
