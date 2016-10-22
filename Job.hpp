@@ -17,17 +17,16 @@ class Job {
     struct job {
         size_t t_arrival;
         size_t t_execution; 
-
-        size_t t_first_run;
-        size_t t_total_runtime;
         size_t order;
+
+        bool started; 
     };
 
     static bool fcfs_sort_by(struct job j1, struct job j2);
 
     static bool sjf_sort_by(struct job j1, struct job j2);
 
-    static bool stfc_sort_by(struct job j1, struct job j2);
+    static bool stcf_sort_by(struct job j1, struct job j2);
 
     std::vector<struct job> jobs_v;
 
@@ -46,17 +45,17 @@ class Job {
 
     void print_jobs();
 
-    void run();
-
     void run_fcfs();
 
     void run_sjf();
+
+    void run_stcf();
 
     void fcfs_sort();
 
     void sjf_sort();
 
-    void stfc_sort();
+    void stcf_sort();
 
     void print_job(struct job);
 

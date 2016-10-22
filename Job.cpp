@@ -51,9 +51,6 @@ void Job::print_jobs() {
     }
 }
 
-void Job::run() {
-}
-
 void Job::print_avg_time(size_t t_turnaround, size_t t_total_response) {
     printf("%.5f\n", ((double)t_turnaround / (double)total_jobs));
     printf("%.5f\n", ((double)t_total_response / (double)total_jobs));
@@ -104,26 +101,20 @@ void Job::run_sjf() {
     size_t t_turnaround = 0;
     size_t t_total_response = 0;
 
-    //std::vector<job>::iterator jobs_v_begin = jobs_v.begin();
-    std::cout << "all jobs:" << std::endl;
-    print_jobs();
-    std::cout << "----------" << std::endl;
     while ((not min_h.empty()) || (not jobs_v.empty()) ) {
 
         if (not min_h.empty() && not jobs_v.empty()) {
             get_jobs(t_current);
+
         } else if ((not jobs_v.empty()) && (min_h.empty())) {
-            t_current = jobs_v.at(jobs_v.size() - 1).t_arrival;
-            //t_current += jobs_v.at(jobs_v.size() - 1).t_execution;
-            std::cout << "CURRENT: " << t_current << std::endl;
+            if (jobs_v.back().t_arrival > t_current) {
+                t_current = jobs_v.at(jobs_v.size() - 1).t_arrival;
+            }
             get_jobs(t_current);
         }
 
         current_job = min_h.get_front();
         min_h.pop();
-
-        print_job(current_job);
-        std::cout << "-------" << std::endl;
 
         if (current_job.t_arrival > t_current) {
             t_current = current_job.t_arrival;
@@ -133,10 +124,6 @@ void Job::run_sjf() {
         t_current        += current_job.t_execution;
         t_turnaround     += t_current - current_job.t_arrival; 
 
-        std::cout << "response    : " << t_total_response << std::endl;
-        std::cout << "t_current   : " << t_current << std::endl;
-        std::cout << "t_turnaround: " << t_turnaround << std::endl;
-        std::cout << "--------------" << std::endl;
     } 
 
     print_avg_time(t_turnaround, t_total_response);
@@ -152,6 +139,8 @@ void Job::get_jobs(size_t t_current) {
     }
 }
 
+void Job::run_stcf
+
 void Job::print_job(struct job j) {
     std::cout << "t_arrival  : " << j.t_arrival << std::endl;
     std::cout << "t_execution: " << j.t_execution << std::endl;
@@ -165,8 +154,8 @@ void Job::sjf_sort() {
     std::sort(jobs_v.begin(), jobs_v.end(), sjf_sort_by);
 }
 
-void Job::stfc_sort() {
-    std::sort(jobs_v.begin(), jobs_v.end(), stfc_sort_by);
+void Job::stcf_sort() {
+    std::sort(jobs_v.begin(), jobs_v.end(), stcf_sort_by);
 }
 
 bool Job::fcfs_sort_by(struct job j1, struct job j2) {
@@ -202,20 +191,8 @@ bool Job::sjf_sort_by(struct job j1, struct job j2) {
     }
 }
 
-    /*
-bool Job::sjf_sort_by_test(struct job j1, struct job j2) {
-    if (j1.t_arrival == j2.t_arrival) {
-        return j1.t_execution < j2.t_execution;
-    } else {
-        return j1.t_arrival < j2.t_arrival;
-    }
-}
-*/
-
-bool Job::stfc_sort_by(struct job j1, struct job j2) {
-    // TODO:
-    // This is a placeholder, AND IS NOT CORRECT!
-    return j1.t_execution < j2.t_execution;
+bool Job::stcf_sort_by(struct job j1, struct job j2) {
+    return sjf_sort_by(j1, j2);
 }
 
 
