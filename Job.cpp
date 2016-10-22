@@ -55,13 +55,8 @@ void Job::run() {
 }
 
 void Job::print_avg_time(size_t t_turnaround, size_t t_total_response) {
-
-    std::cout << "t_total_response = " << t_total_response << std::endl;
-    std::cout << "t_turnaround = " << t_turnaround << std::endl;
-    std::cout << "total_jobs = " << total_jobs << std::endl;
-
-    printf("%.5f\n", (t_turnaround / total_jobs));
-    printf("%.5f\n", (t_total_response / total_jobs));
+    printf("%.5f\n", ((double)t_turnaround / (double)total_jobs));
+    printf("%.5f\n", ((double)t_total_response / (double)total_jobs));
 }
 
 void Job::run_fcfs() {
@@ -85,8 +80,11 @@ void Job::run_fcfs() {
         std::cout  << std::endl;
 #endif
     } 
+    print_avg_time(t_turnaround, t_total_response);
+    /*
     printf("%.5f\n", (t_turnaround / jobs_v.size()));
     printf("%.5f\n", (t_total_response / jobs_v.size()));
+    */
 }
 
 void Job::print_job_heap() {
@@ -116,6 +114,8 @@ void Job::run_sjf() {
             get_jobs(t_current);
         } else if ((not jobs_v.empty()) && (min_h.empty())) {
             t_current = jobs_v.at(jobs_v.size() - 1).t_arrival;
+            //t_current += jobs_v.at(jobs_v.size() - 1).t_execution;
+            std::cout << "CURRENT: " << t_current << std::endl;
             get_jobs(t_current);
         }
 
@@ -123,6 +123,7 @@ void Job::run_sjf() {
         min_h.pop();
 
         print_job(current_job);
+        std::cout << "-------" << std::endl;
 
         if (current_job.t_arrival > t_current) {
             t_current = current_job.t_arrival;
@@ -130,18 +131,22 @@ void Job::run_sjf() {
 
         t_total_response += t_current - current_job.t_arrival;
         t_current        += current_job.t_execution;
-        t_turnaround     += t_current - current_job.t_arrival;
+        t_turnaround     += t_current - current_job.t_arrival; 
 
-
+        std::cout << "response    : " << t_total_response << std::endl;
+        std::cout << "t_current   : " << t_current << std::endl;
+        std::cout << "t_turnaround: " << t_turnaround << std::endl;
+        std::cout << "--------------" << std::endl;
     } 
-    print_avg_time(t_total_response, t_turnaround);
+
+    print_avg_time(t_turnaround, t_total_response);
 }
 
 void Job::get_jobs(size_t t_current) {
     while ((not jobs_v.empty()) && 
             jobs_v.back().t_arrival <= t_current) {
 
-            std::cout << "here" << std::endl;
+            //std::cout << "here" << std::endl;
         min_h.add(jobs_v.at(jobs_v.size()-1));
         jobs_v.pop_back();
     }
@@ -189,7 +194,12 @@ bool Job::sjf_sort_by(struct job j1, struct job j2) {
         return j1.t_execution > j2.t_execution;
     }
     */
-    return j1.t_arrival > j2.t_arrival;
+    //return j1.t_arrival > j2.t_arrival;
+    if (j1.t_arrival == j2.t_arrival) {
+        return j1.t_execution > j2.t_execution;
+    } else {
+        return j1.t_arrival > j2.t_arrival;
+    }
 }
 
     /*
