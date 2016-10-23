@@ -26,3 +26,11 @@ CFLAGS = -std=gnu++11 -Wall -Wextra -Wpedantic -O2
 all:
 	g++ -o fcfs fcfs.cpp Job.cpp helpers.cpp $(CFLAGS)
 
+Project github site:
+    https://github.com/kkloberdanz/OS-Scheduler
+    
+    This includes the programs we used to generate testfiles and a program
+    to automatically test the outputs of our programs with the binaries we
+    were provided.
+
+
