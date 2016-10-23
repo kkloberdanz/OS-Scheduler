@@ -51,6 +51,7 @@ def run_test(my_programs, control_programs):
         cont_prog = control_programs[i]
         num_success = 0
         num_fails = 0
+        num_timeouts = 0
         for testfile in os.listdir("Tests"):
             testfile = "Tests/" + testfile
 
@@ -59,9 +60,11 @@ def run_test(my_programs, control_programs):
 
             if my_output == "NONE":
                 print("--- TIMEOUT --- : " + my_prog)
+                num_timeouts += 1
 
             elif control_output == "NONE":
                 print("--- TIMEOUT --- : " + cont_prog)
+                num_timeouts += 1
 
             else:
                 if check_hashes(my_output, control_output):
@@ -69,10 +72,16 @@ def run_test(my_programs, control_programs):
                 else:
                     num_fails += 1
 
-        analysis.write("Program: " + my_prog + "\n")    
-        analysis.write("    Total Tests: " + str(num_success + num_fails) + "\n")
-        analysis.write("    Successes  : " + str(num_success) + "\n")
-        analysis.write("    Failures   : " + str(num_fails) + "\n\n")    
+        total_tests = num_success + num_fails
+        analysis.write("Program: " + my_prog + "\n")
+        analysis.write("    Total Tests     : " + str(total_tests) + "\n")
+        analysis.write("    Successes       : " + str(num_success) + "\n")
+        analysis.write("    Failures        : " + str(num_fails) + "\n")
+        analysis.write("    Timeouts        : " + str(num_timeouts) + "\n\n")
+        analysis.write("    Percent Success : %.2f" % (100*(num_success / total_tests)))
+        analysis.write("%")
+        analysis.write("    Percent Timeouts: %.2f" % (100*(num_timeouts / total_tests)))
+        analysis.write("%\n\n")
 
 def cleanup():
     os.system("rm -rf Output/*")

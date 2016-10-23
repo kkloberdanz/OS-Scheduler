@@ -6,7 +6,7 @@ import random
 
 def generate_test(out_filename): 
     out_file = open(out_filename, "w")
-    num_jobs = random.randint(0, 100)
+    num_jobs = random.randint(0, 10)
     out_file.write(str(num_jobs) + "\n")
 
     for i in range(num_jobs):

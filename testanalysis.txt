@@ -1,15 +1,24 @@
 Program: Bin/sjf
-    Total Tests: 103
-    Successes  : 103
-    Failures   : 0
+    Total Tests     : 1003
+    Successes       : 1003
+    Failures        : 0
+    Timeouts        : 0
+
+    Percent Success : 100.00%    Percent Timeouts: 0.00%
 
 Program: Bin/fcfs
-    Total Tests: 103
-    Successes  : 103
-    Failures   : 0
+    Total Tests     : 1003
+    Successes       : 1003
+    Failures        : 0
+    Timeouts        : 0
+
+    Percent Success : 100.00%    Percent Timeouts: 0.00%
 
 Program: Bin/stcf
-    Total Tests: 66
-    Successes  : 9
-    Failures   : 57
+    Total Tests     : 964
+    Successes       : 410
+    Failures        : 554
+    Timeouts        : 39
+
+    Percent Success : 42.53%    Percent Timeouts: 4.05%
 
