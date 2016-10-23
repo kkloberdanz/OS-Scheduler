@@ -1,0 +1,15 @@
+Program: Bin/sjf
+    Total Tests: 103
+    Successes  : 103
+    Failures   : 0
+
+Program: Bin/fcfs
+    Total Tests: 103
+    Successes  : 103
+    Failures   : 0
+
+Program: Bin/stcf
+    Total Tests: 66
+    Successes  : 9
+    Failures   : 57
+

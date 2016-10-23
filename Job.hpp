@@ -14,13 +14,15 @@
 
 class Job {
   private: 
+
+    size_t total_jobs;
+
     struct job {
         size_t t_arrival;
         size_t t_execution; 
         size_t order;
-
         size_t t_exe_d;
-        bool started; 
+        bool   started; 
     };
 
     static bool fcfs_sort_by(struct job j1, struct job j2);
@@ -35,23 +37,6 @@ class Job {
 
     void print_job_heap();
 
-    size_t total_jobs;
-  public:
-
-    Job();
-
-    void build_from_file(const char*);
-
-    void push_job(size_t order, size_t t_arrival, size_t t_execution);
-
-    void print_jobs();
-
-    void run_fcfs();
-
-    void run_sjf();
-
-    void run_stcf();
-
     void fcfs_sort();
 
     void sjf_sort();
@@ -63,6 +48,22 @@ class Job {
     void get_jobs(size_t);
     
     void print_avg_time(size_t, size_t);
+
+    void push_job(size_t order, size_t t_arrival, size_t t_execution);
+
+    void print_jobs();
+
+  public:
+
+    Job();
+
+    void build_from_file(const char*); 
+
+    void run_fcfs();
+
+    void run_sjf();
+
+    void run_stcf();
 };
 
 #endif

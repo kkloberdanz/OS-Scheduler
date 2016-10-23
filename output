@@ -1,0 +1,1732 @@
+timeout 2 Bin/sjf Tests/testfile21.txt > Output/Tests.testfile21.txtBin.sjf
+timeout 2 ./SJF Tests/testfile21.txt > Output/Tests.testfile21.txt..SJF
+PASSED at Output/Tests.testfile21.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile57.txt > Output/Tests.testfile57.txtBin.sjf
+timeout 2 ./SJF Tests/testfile57.txt > Output/Tests.testfile57.txt..SJF
+PASSED at Output/Tests.testfile57.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile35.txt > Output/Tests.testfile35.txtBin.sjf
+timeout 2 ./SJF Tests/testfile35.txt > Output/Tests.testfile35.txt..SJF
+PASSED at Output/Tests.testfile35.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile67.txt > Output/Tests.testfile67.txtBin.sjf
+timeout 2 ./SJF Tests/testfile67.txt > Output/Tests.testfile67.txt..SJF
+PASSED at Output/Tests.testfile67.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile50.txt > Output/Tests.testfile50.txtBin.sjf
+timeout 2 ./SJF Tests/testfile50.txt > Output/Tests.testfile50.txt..SJF
+PASSED at Output/Tests.testfile50.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile81.txt > Output/Tests.testfile81.txtBin.sjf
+timeout 2 ./SJF Tests/testfile81.txt > Output/Tests.testfile81.txt..SJF
+PASSED at Output/Tests.testfile81.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile95.txt > Output/Tests.testfile95.txtBin.sjf
+timeout 2 ./SJF Tests/testfile95.txt > Output/Tests.testfile95.txt..SJF
+PASSED at Output/Tests.testfile95.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile88.txt > Output/Tests.testfile88.txtBin.sjf
+timeout 2 ./SJF Tests/testfile88.txt > Output/Tests.testfile88.txt..SJF
+PASSED at Output/Tests.testfile88.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile53.txt > Output/Tests.testfile53.txtBin.sjf
+timeout 2 ./SJF Tests/testfile53.txt > Output/Tests.testfile53.txt..SJF
+PASSED at Output/Tests.testfile53.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile77.txt > Output/Tests.testfile77.txtBin.sjf
+timeout 2 ./SJF Tests/testfile77.txt > Output/Tests.testfile77.txt..SJF
+PASSED at Output/Tests.testfile77.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile46.txt > Output/Tests.testfile46.txtBin.sjf
+timeout 2 ./SJF Tests/testfile46.txt > Output/Tests.testfile46.txt..SJF
+PASSED at Output/Tests.testfile46.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile1.txt > Output/Tests.testfile1.txtBin.sjf
+timeout 2 ./SJF Tests/testfile1.txt > Output/Tests.testfile1.txt..SJF
+PASSED at Output/Tests.testfile1.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile78.txt > Output/Tests.testfile78.txtBin.sjf
+timeout 2 ./SJF Tests/testfile78.txt > Output/Tests.testfile78.txt..SJF
+PASSED at Output/Tests.testfile78.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile60.txt > Output/Tests.testfile60.txtBin.sjf
+timeout 2 ./SJF Tests/testfile60.txt > Output/Tests.testfile60.txt..SJF
+PASSED at Output/Tests.testfile60.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile4.txt > Output/Tests.testfile4.txtBin.sjf
+timeout 2 ./SJF Tests/testfile4.txt > Output/Tests.testfile4.txt..SJF
+PASSED at Output/Tests.testfile4.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile68.txt > Output/Tests.testfile68.txtBin.sjf
+timeout 2 ./SJF Tests/testfile68.txt > Output/Tests.testfile68.txt..SJF
+PASSED at Output/Tests.testfile68.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile82.txt > Output/Tests.testfile82.txtBin.sjf
+timeout 2 ./SJF Tests/testfile82.txt > Output/Tests.testfile82.txt..SJF
+PASSED at Output/Tests.testfile82.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile38.txt > Output/Tests.testfile38.txtBin.sjf
+timeout 2 ./SJF Tests/testfile38.txt > Output/Tests.testfile38.txt..SJF
+PASSED at Output/Tests.testfile38.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile47.txt > Output/Tests.testfile47.txtBin.sjf
+timeout 2 ./SJF Tests/testfile47.txt > Output/Tests.testfile47.txt..SJF
+PASSED at Output/Tests.testfile47.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile75.txt > Output/Tests.testfile75.txtBin.sjf
+timeout 2 ./SJF Tests/testfile75.txt > Output/Tests.testfile75.txt..SJF
+PASSED at Output/Tests.testfile75.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile28.txt > Output/Tests.testfile28.txtBin.sjf
+timeout 2 ./SJF Tests/testfile28.txt > Output/Tests.testfile28.txt..SJF
+PASSED at Output/Tests.testfile28.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile37.txt > Output/Tests.testfile37.txtBin.sjf
+timeout 2 ./SJF Tests/testfile37.txt > Output/Tests.testfile37.txt..SJF
+PASSED at Output/Tests.testfile37.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile92.txt > Output/Tests.testfile92.txtBin.sjf
+timeout 2 ./SJF Tests/testfile92.txt > Output/Tests.testfile92.txt..SJF
+PASSED at Output/Tests.testfile92.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile58.txt > Output/Tests.testfile58.txtBin.sjf
+timeout 2 ./SJF Tests/testfile58.txt > Output/Tests.testfile58.txt..SJF
+PASSED at Output/Tests.testfile58.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile70.txt > Output/Tests.testfile70.txtBin.sjf
+timeout 2 ./SJF Tests/testfile70.txt > Output/Tests.testfile70.txt..SJF
+PASSED at Output/Tests.testfile70.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile72.txt > Output/Tests.testfile72.txtBin.sjf
+timeout 2 ./SJF Tests/testfile72.txt > Output/Tests.testfile72.txt..SJF
+PASSED at Output/Tests.testfile72.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile94.txt > Output/Tests.testfile94.txtBin.sjf
+timeout 2 ./SJF Tests/testfile94.txt > Output/Tests.testfile94.txt..SJF
+PASSED at Output/Tests.testfile94.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile36.txt > Output/Tests.testfile36.txtBin.sjf
+timeout 2 ./SJF Tests/testfile36.txt > Output/Tests.testfile36.txt..SJF
+PASSED at Output/Tests.testfile36.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile42.txt > Output/Tests.testfile42.txtBin.sjf
+timeout 2 ./SJF Tests/testfile42.txt > Output/Tests.testfile42.txt..SJF
+PASSED at Output/Tests.testfile42.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile13.txt > Output/Tests.testfile13.txtBin.sjf
+timeout 2 ./SJF Tests/testfile13.txt > Output/Tests.testfile13.txt..SJF
+PASSED at Output/Tests.testfile13.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile55.txt > Output/Tests.testfile55.txtBin.sjf
+timeout 2 ./SJF Tests/testfile55.txt > Output/Tests.testfile55.txt..SJF
+PASSED at Output/Tests.testfile55.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile76.txt > Output/Tests.testfile76.txtBin.sjf
+timeout 2 ./SJF Tests/testfile76.txt > Output/Tests.testfile76.txt..SJF
+PASSED at Output/Tests.testfile76.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile26.txt > Output/Tests.testfile26.txtBin.sjf
+timeout 2 ./SJF Tests/testfile26.txt > Output/Tests.testfile26.txt..SJF
+PASSED at Output/Tests.testfile26.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile64.txt > Output/Tests.testfile64.txtBin.sjf
+timeout 2 ./SJF Tests/testfile64.txt > Output/Tests.testfile64.txt..SJF
+PASSED at Output/Tests.testfile64.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile8.txt > Output/Tests.testfile8.txtBin.sjf
+timeout 2 ./SJF Tests/testfile8.txt > Output/Tests.testfile8.txt..SJF
+PASSED at Output/Tests.testfile8.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile85.txt > Output/Tests.testfile85.txtBin.sjf
+timeout 2 ./SJF Tests/testfile85.txt > Output/Tests.testfile85.txt..SJF
+PASSED at Output/Tests.testfile85.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile33.txt > Output/Tests.testfile33.txtBin.sjf
+timeout 2 ./SJF Tests/testfile33.txt > Output/Tests.testfile33.txt..SJF
+PASSED at Output/Tests.testfile33.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile63.txt > Output/Tests.testfile63.txtBin.sjf
+timeout 2 ./SJF Tests/testfile63.txt > Output/Tests.testfile63.txt..SJF
+PASSED at Output/Tests.testfile63.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile51.txt > Output/Tests.testfile51.txtBin.sjf
+timeout 2 ./SJF Tests/testfile51.txt > Output/Tests.testfile51.txt..SJF
+PASSED at Output/Tests.testfile51.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile59.txt > Output/Tests.testfile59.txtBin.sjf
+timeout 2 ./SJF Tests/testfile59.txt > Output/Tests.testfile59.txt..SJF
+PASSED at Output/Tests.testfile59.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile44.txt > Output/Tests.testfile44.txtBin.sjf
+timeout 2 ./SJF Tests/testfile44.txt > Output/Tests.testfile44.txt..SJF
+PASSED at Output/Tests.testfile44.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/job.info.fcfs > Output/Tests.job.info.fcfsBin.sjf
+timeout 2 ./SJF Tests/job.info.fcfs > Output/Tests.job.info.fcfs..SJF
+PASSED at Output/Tests.job.info.fcfsBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile12.txt > Output/Tests.testfile12.txtBin.sjf
+timeout 2 ./SJF Tests/testfile12.txt > Output/Tests.testfile12.txt..SJF
+PASSED at Output/Tests.testfile12.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile29.txt > Output/Tests.testfile29.txtBin.sjf
+timeout 2 ./SJF Tests/testfile29.txt > Output/Tests.testfile29.txt..SJF
+PASSED at Output/Tests.testfile29.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile6.txt > Output/Tests.testfile6.txtBin.sjf
+timeout 2 ./SJF Tests/testfile6.txt > Output/Tests.testfile6.txt..SJF
+PASSED at Output/Tests.testfile6.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile54.txt > Output/Tests.testfile54.txtBin.sjf
+timeout 2 ./SJF Tests/testfile54.txt > Output/Tests.testfile54.txt..SJF
+PASSED at Output/Tests.testfile54.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile45.txt > Output/Tests.testfile45.txtBin.sjf
+timeout 2 ./SJF Tests/testfile45.txt > Output/Tests.testfile45.txt..SJF
+PASSED at Output/Tests.testfile45.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile41.txt > Output/Tests.testfile41.txtBin.sjf
+timeout 2 ./SJF Tests/testfile41.txt > Output/Tests.testfile41.txt..SJF
+PASSED at Output/Tests.testfile41.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile69.txt > Output/Tests.testfile69.txtBin.sjf
+timeout 2 ./SJF Tests/testfile69.txt > Output/Tests.testfile69.txt..SJF
+PASSED at Output/Tests.testfile69.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile90.txt > Output/Tests.testfile90.txtBin.sjf
+timeout 2 ./SJF Tests/testfile90.txt > Output/Tests.testfile90.txt..SJF
+PASSED at Output/Tests.testfile90.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile71.txt > Output/Tests.testfile71.txtBin.sjf
+timeout 2 ./SJF Tests/testfile71.txt > Output/Tests.testfile71.txt..SJF
+PASSED at Output/Tests.testfile71.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile49.txt > Output/Tests.testfile49.txtBin.sjf
+timeout 2 ./SJF Tests/testfile49.txt > Output/Tests.testfile49.txt..SJF
+PASSED at Output/Tests.testfile49.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile74.txt > Output/Tests.testfile74.txtBin.sjf
+timeout 2 ./SJF Tests/testfile74.txt > Output/Tests.testfile74.txt..SJF
+PASSED at Output/Tests.testfile74.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile31.txt > Output/Tests.testfile31.txtBin.sjf
+timeout 2 ./SJF Tests/testfile31.txt > Output/Tests.testfile31.txt..SJF
+PASSED at Output/Tests.testfile31.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile15.txt > Output/Tests.testfile15.txtBin.sjf
+timeout 2 ./SJF Tests/testfile15.txt > Output/Tests.testfile15.txt..SJF
+PASSED at Output/Tests.testfile15.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile27.txt > Output/Tests.testfile27.txtBin.sjf
+timeout 2 ./SJF Tests/testfile27.txt > Output/Tests.testfile27.txt..SJF
+PASSED at Output/Tests.testfile27.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile89.txt > Output/Tests.testfile89.txtBin.sjf
+timeout 2 ./SJF Tests/testfile89.txt > Output/Tests.testfile89.txt..SJF
+PASSED at Output/Tests.testfile89.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile23.txt > Output/Tests.testfile23.txtBin.sjf
+timeout 2 ./SJF Tests/testfile23.txt > Output/Tests.testfile23.txt..SJF
+PASSED at Output/Tests.testfile23.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile98.txt > Output/Tests.testfile98.txtBin.sjf
+timeout 2 ./SJF Tests/testfile98.txt > Output/Tests.testfile98.txt..SJF
+PASSED at Output/Tests.testfile98.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile93.txt > Output/Tests.testfile93.txtBin.sjf
+timeout 2 ./SJF Tests/testfile93.txt > Output/Tests.testfile93.txt..SJF
+PASSED at Output/Tests.testfile93.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile16.txt > Output/Tests.testfile16.txtBin.sjf
+timeout 2 ./SJF Tests/testfile16.txt > Output/Tests.testfile16.txt..SJF
+PASSED at Output/Tests.testfile16.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile73.txt > Output/Tests.testfile73.txtBin.sjf
+timeout 2 ./SJF Tests/testfile73.txt > Output/Tests.testfile73.txt..SJF
+PASSED at Output/Tests.testfile73.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/job.info.stcf > Output/Tests.job.info.stcfBin.sjf
+timeout 2 ./SJF Tests/job.info.stcf > Output/Tests.job.info.stcf..SJF
+PASSED at Output/Tests.job.info.stcfBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile84.txt > Output/Tests.testfile84.txtBin.sjf
+timeout 2 ./SJF Tests/testfile84.txt > Output/Tests.testfile84.txt..SJF
+PASSED at Output/Tests.testfile84.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile5.txt > Output/Tests.testfile5.txtBin.sjf
+timeout 2 ./SJF Tests/testfile5.txt > Output/Tests.testfile5.txt..SJF
+PASSED at Output/Tests.testfile5.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile11.txt > Output/Tests.testfile11.txtBin.sjf
+timeout 2 ./SJF Tests/testfile11.txt > Output/Tests.testfile11.txt..SJF
+PASSED at Output/Tests.testfile11.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile19.txt > Output/Tests.testfile19.txtBin.sjf
+timeout 2 ./SJF Tests/testfile19.txt > Output/Tests.testfile19.txt..SJF
+PASSED at Output/Tests.testfile19.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile14.txt > Output/Tests.testfile14.txtBin.sjf
+timeout 2 ./SJF Tests/testfile14.txt > Output/Tests.testfile14.txt..SJF
+PASSED at Output/Tests.testfile14.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile39.txt > Output/Tests.testfile39.txtBin.sjf
+timeout 2 ./SJF Tests/testfile39.txt > Output/Tests.testfile39.txt..SJF
+PASSED at Output/Tests.testfile39.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile40.txt > Output/Tests.testfile40.txtBin.sjf
+timeout 2 ./SJF Tests/testfile40.txt > Output/Tests.testfile40.txt..SJF
+PASSED at Output/Tests.testfile40.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile17.txt > Output/Tests.testfile17.txtBin.sjf
+timeout 2 ./SJF Tests/testfile17.txt > Output/Tests.testfile17.txt..SJF
+PASSED at Output/Tests.testfile17.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile97.txt > Output/Tests.testfile97.txtBin.sjf
+timeout 2 ./SJF Tests/testfile97.txt > Output/Tests.testfile97.txt..SJF
+PASSED at Output/Tests.testfile97.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile10.txt > Output/Tests.testfile10.txtBin.sjf
+timeout 2 ./SJF Tests/testfile10.txt > Output/Tests.testfile10.txt..SJF
+PASSED at Output/Tests.testfile10.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile79.txt > Output/Tests.testfile79.txtBin.sjf
+timeout 2 ./SJF Tests/testfile79.txt > Output/Tests.testfile79.txt..SJF
+PASSED at Output/Tests.testfile79.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile86.txt > Output/Tests.testfile86.txtBin.sjf
+timeout 2 ./SJF Tests/testfile86.txt > Output/Tests.testfile86.txt..SJF
+PASSED at Output/Tests.testfile86.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile80.txt > Output/Tests.testfile80.txtBin.sjf
+timeout 2 ./SJF Tests/testfile80.txt > Output/Tests.testfile80.txt..SJF
+PASSED at Output/Tests.testfile80.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile99.txt > Output/Tests.testfile99.txtBin.sjf
+timeout 2 ./SJF Tests/testfile99.txt > Output/Tests.testfile99.txt..SJF
+PASSED at Output/Tests.testfile99.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile2.txt > Output/Tests.testfile2.txtBin.sjf
+timeout 2 ./SJF Tests/testfile2.txt > Output/Tests.testfile2.txt..SJF
+PASSED at Output/Tests.testfile2.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile48.txt > Output/Tests.testfile48.txtBin.sjf
+timeout 2 ./SJF Tests/testfile48.txt > Output/Tests.testfile48.txt..SJF
+PASSED at Output/Tests.testfile48.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile62.txt > Output/Tests.testfile62.txtBin.sjf
+timeout 2 ./SJF Tests/testfile62.txt > Output/Tests.testfile62.txt..SJF
+PASSED at Output/Tests.testfile62.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile0.txt > Output/Tests.testfile0.txtBin.sjf
+timeout 2 ./SJF Tests/testfile0.txt > Output/Tests.testfile0.txt..SJF
+PASSED at Output/Tests.testfile0.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile61.txt > Output/Tests.testfile61.txtBin.sjf
+timeout 2 ./SJF Tests/testfile61.txt > Output/Tests.testfile61.txt..SJF
+PASSED at Output/Tests.testfile61.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile83.txt > Output/Tests.testfile83.txtBin.sjf
+timeout 2 ./SJF Tests/testfile83.txt > Output/Tests.testfile83.txt..SJF
+PASSED at Output/Tests.testfile83.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile43.txt > Output/Tests.testfile43.txtBin.sjf
+timeout 2 ./SJF Tests/testfile43.txt > Output/Tests.testfile43.txt..SJF
+PASSED at Output/Tests.testfile43.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile18.txt > Output/Tests.testfile18.txtBin.sjf
+timeout 2 ./SJF Tests/testfile18.txt > Output/Tests.testfile18.txt..SJF
+PASSED at Output/Tests.testfile18.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile25.txt > Output/Tests.testfile25.txtBin.sjf
+timeout 2 ./SJF Tests/testfile25.txt > Output/Tests.testfile25.txt..SJF
+PASSED at Output/Tests.testfile25.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile34.txt > Output/Tests.testfile34.txtBin.sjf
+timeout 2 ./SJF Tests/testfile34.txt > Output/Tests.testfile34.txt..SJF
+PASSED at Output/Tests.testfile34.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile9.txt > Output/Tests.testfile9.txtBin.sjf
+timeout 2 ./SJF Tests/testfile9.txt > Output/Tests.testfile9.txt..SJF
+PASSED at Output/Tests.testfile9.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile3.txt > Output/Tests.testfile3.txtBin.sjf
+timeout 2 ./SJF Tests/testfile3.txt > Output/Tests.testfile3.txt..SJF
+PASSED at Output/Tests.testfile3.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile96.txt > Output/Tests.testfile96.txtBin.sjf
+timeout 2 ./SJF Tests/testfile96.txt > Output/Tests.testfile96.txt..SJF
+PASSED at Output/Tests.testfile96.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile66.txt > Output/Tests.testfile66.txtBin.sjf
+timeout 2 ./SJF Tests/testfile66.txt > Output/Tests.testfile66.txt..SJF
+PASSED at Output/Tests.testfile66.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile20.txt > Output/Tests.testfile20.txtBin.sjf
+timeout 2 ./SJF Tests/testfile20.txt > Output/Tests.testfile20.txt..SJF
+PASSED at Output/Tests.testfile20.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile32.txt > Output/Tests.testfile32.txtBin.sjf
+timeout 2 ./SJF Tests/testfile32.txt > Output/Tests.testfile32.txt..SJF
+PASSED at Output/Tests.testfile32.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile91.txt > Output/Tests.testfile91.txtBin.sjf
+timeout 2 ./SJF Tests/testfile91.txt > Output/Tests.testfile91.txt..SJF
+PASSED at Output/Tests.testfile91.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile24.txt > Output/Tests.testfile24.txtBin.sjf
+timeout 2 ./SJF Tests/testfile24.txt > Output/Tests.testfile24.txt..SJF
+PASSED at Output/Tests.testfile24.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile7.txt > Output/Tests.testfile7.txtBin.sjf
+timeout 2 ./SJF Tests/testfile7.txt > Output/Tests.testfile7.txt..SJF
+PASSED at Output/Tests.testfile7.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile87.txt > Output/Tests.testfile87.txtBin.sjf
+timeout 2 ./SJF Tests/testfile87.txt > Output/Tests.testfile87.txt..SJF
+PASSED at Output/Tests.testfile87.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile30.txt > Output/Tests.testfile30.txtBin.sjf
+timeout 2 ./SJF Tests/testfile30.txt > Output/Tests.testfile30.txt..SJF
+PASSED at Output/Tests.testfile30.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/job.info.sjf > Output/Tests.job.info.sjfBin.sjf
+timeout 2 ./SJF Tests/job.info.sjf > Output/Tests.job.info.sjf..SJF
+PASSED at Output/Tests.job.info.sjfBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile22.txt > Output/Tests.testfile22.txtBin.sjf
+timeout 2 ./SJF Tests/testfile22.txt > Output/Tests.testfile22.txt..SJF
+PASSED at Output/Tests.testfile22.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile52.txt > Output/Tests.testfile52.txtBin.sjf
+timeout 2 ./SJF Tests/testfile52.txt > Output/Tests.testfile52.txt..SJF
+PASSED at Output/Tests.testfile52.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile65.txt > Output/Tests.testfile65.txtBin.sjf
+timeout 2 ./SJF Tests/testfile65.txt > Output/Tests.testfile65.txt..SJF
+PASSED at Output/Tests.testfile65.txtBin.sjf
+
+timeout 2 Bin/sjf Tests/testfile56.txt > Output/Tests.testfile56.txtBin.sjf
+timeout 2 ./SJF Tests/testfile56.txt > Output/Tests.testfile56.txt..SJF
+PASSED at Output/Tests.testfile56.txtBin.sjf
+
+timeout 2 Bin/fcfs Tests/testfile21.txt > Output/Tests.testfile21.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile21.txt > Output/Tests.testfile21.txt..FCFS
+PASSED at Output/Tests.testfile21.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile57.txt > Output/Tests.testfile57.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile57.txt > Output/Tests.testfile57.txt..FCFS
+PASSED at Output/Tests.testfile57.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile35.txt > Output/Tests.testfile35.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile35.txt > Output/Tests.testfile35.txt..FCFS
+PASSED at Output/Tests.testfile35.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile67.txt > Output/Tests.testfile67.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile67.txt > Output/Tests.testfile67.txt..FCFS
+PASSED at Output/Tests.testfile67.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile50.txt > Output/Tests.testfile50.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile50.txt > Output/Tests.testfile50.txt..FCFS
+PASSED at Output/Tests.testfile50.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile81.txt > Output/Tests.testfile81.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile81.txt > Output/Tests.testfile81.txt..FCFS
+PASSED at Output/Tests.testfile81.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile95.txt > Output/Tests.testfile95.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile95.txt > Output/Tests.testfile95.txt..FCFS
+PASSED at Output/Tests.testfile95.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile88.txt > Output/Tests.testfile88.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile88.txt > Output/Tests.testfile88.txt..FCFS
+PASSED at Output/Tests.testfile88.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile53.txt > Output/Tests.testfile53.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile53.txt > Output/Tests.testfile53.txt..FCFS
+PASSED at Output/Tests.testfile53.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile77.txt > Output/Tests.testfile77.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile77.txt > Output/Tests.testfile77.txt..FCFS
+PASSED at Output/Tests.testfile77.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile46.txt > Output/Tests.testfile46.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile46.txt > Output/Tests.testfile46.txt..FCFS
+PASSED at Output/Tests.testfile46.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile1.txt > Output/Tests.testfile1.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile1.txt > Output/Tests.testfile1.txt..FCFS
+PASSED at Output/Tests.testfile1.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile78.txt > Output/Tests.testfile78.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile78.txt > Output/Tests.testfile78.txt..FCFS
+PASSED at Output/Tests.testfile78.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile60.txt > Output/Tests.testfile60.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile60.txt > Output/Tests.testfile60.txt..FCFS
+PASSED at Output/Tests.testfile60.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile4.txt > Output/Tests.testfile4.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile4.txt > Output/Tests.testfile4.txt..FCFS
+PASSED at Output/Tests.testfile4.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile68.txt > Output/Tests.testfile68.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile68.txt > Output/Tests.testfile68.txt..FCFS
+PASSED at Output/Tests.testfile68.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile82.txt > Output/Tests.testfile82.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile82.txt > Output/Tests.testfile82.txt..FCFS
+PASSED at Output/Tests.testfile82.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile38.txt > Output/Tests.testfile38.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile38.txt > Output/Tests.testfile38.txt..FCFS
+PASSED at Output/Tests.testfile38.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile47.txt > Output/Tests.testfile47.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile47.txt > Output/Tests.testfile47.txt..FCFS
+PASSED at Output/Tests.testfile47.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile75.txt > Output/Tests.testfile75.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile75.txt > Output/Tests.testfile75.txt..FCFS
+PASSED at Output/Tests.testfile75.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile28.txt > Output/Tests.testfile28.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile28.txt > Output/Tests.testfile28.txt..FCFS
+PASSED at Output/Tests.testfile28.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile37.txt > Output/Tests.testfile37.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile37.txt > Output/Tests.testfile37.txt..FCFS
+PASSED at Output/Tests.testfile37.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile92.txt > Output/Tests.testfile92.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile92.txt > Output/Tests.testfile92.txt..FCFS
+PASSED at Output/Tests.testfile92.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile58.txt > Output/Tests.testfile58.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile58.txt > Output/Tests.testfile58.txt..FCFS
+PASSED at Output/Tests.testfile58.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile70.txt > Output/Tests.testfile70.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile70.txt > Output/Tests.testfile70.txt..FCFS
+PASSED at Output/Tests.testfile70.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile72.txt > Output/Tests.testfile72.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile72.txt > Output/Tests.testfile72.txt..FCFS
+PASSED at Output/Tests.testfile72.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile94.txt > Output/Tests.testfile94.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile94.txt > Output/Tests.testfile94.txt..FCFS
+PASSED at Output/Tests.testfile94.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile36.txt > Output/Tests.testfile36.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile36.txt > Output/Tests.testfile36.txt..FCFS
+PASSED at Output/Tests.testfile36.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile42.txt > Output/Tests.testfile42.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile42.txt > Output/Tests.testfile42.txt..FCFS
+PASSED at Output/Tests.testfile42.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile13.txt > Output/Tests.testfile13.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile13.txt > Output/Tests.testfile13.txt..FCFS
+PASSED at Output/Tests.testfile13.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile55.txt > Output/Tests.testfile55.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile55.txt > Output/Tests.testfile55.txt..FCFS
+PASSED at Output/Tests.testfile55.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile76.txt > Output/Tests.testfile76.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile76.txt > Output/Tests.testfile76.txt..FCFS
+PASSED at Output/Tests.testfile76.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile26.txt > Output/Tests.testfile26.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile26.txt > Output/Tests.testfile26.txt..FCFS
+PASSED at Output/Tests.testfile26.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile64.txt > Output/Tests.testfile64.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile64.txt > Output/Tests.testfile64.txt..FCFS
+PASSED at Output/Tests.testfile64.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile8.txt > Output/Tests.testfile8.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile8.txt > Output/Tests.testfile8.txt..FCFS
+PASSED at Output/Tests.testfile8.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile85.txt > Output/Tests.testfile85.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile85.txt > Output/Tests.testfile85.txt..FCFS
+PASSED at Output/Tests.testfile85.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile33.txt > Output/Tests.testfile33.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile33.txt > Output/Tests.testfile33.txt..FCFS
+PASSED at Output/Tests.testfile33.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile63.txt > Output/Tests.testfile63.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile63.txt > Output/Tests.testfile63.txt..FCFS
+PASSED at Output/Tests.testfile63.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile51.txt > Output/Tests.testfile51.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile51.txt > Output/Tests.testfile51.txt..FCFS
+PASSED at Output/Tests.testfile51.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile59.txt > Output/Tests.testfile59.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile59.txt > Output/Tests.testfile59.txt..FCFS
+PASSED at Output/Tests.testfile59.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile44.txt > Output/Tests.testfile44.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile44.txt > Output/Tests.testfile44.txt..FCFS
+PASSED at Output/Tests.testfile44.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/job.info.fcfs > Output/Tests.job.info.fcfsBin.fcfs
+timeout 2 ./FCFS Tests/job.info.fcfs > Output/Tests.job.info.fcfs..FCFS
+PASSED at Output/Tests.job.info.fcfsBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile12.txt > Output/Tests.testfile12.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile12.txt > Output/Tests.testfile12.txt..FCFS
+PASSED at Output/Tests.testfile12.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile29.txt > Output/Tests.testfile29.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile29.txt > Output/Tests.testfile29.txt..FCFS
+PASSED at Output/Tests.testfile29.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile6.txt > Output/Tests.testfile6.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile6.txt > Output/Tests.testfile6.txt..FCFS
+PASSED at Output/Tests.testfile6.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile54.txt > Output/Tests.testfile54.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile54.txt > Output/Tests.testfile54.txt..FCFS
+PASSED at Output/Tests.testfile54.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile45.txt > Output/Tests.testfile45.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile45.txt > Output/Tests.testfile45.txt..FCFS
+PASSED at Output/Tests.testfile45.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile41.txt > Output/Tests.testfile41.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile41.txt > Output/Tests.testfile41.txt..FCFS
+PASSED at Output/Tests.testfile41.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile69.txt > Output/Tests.testfile69.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile69.txt > Output/Tests.testfile69.txt..FCFS
+PASSED at Output/Tests.testfile69.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile90.txt > Output/Tests.testfile90.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile90.txt > Output/Tests.testfile90.txt..FCFS
+PASSED at Output/Tests.testfile90.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile71.txt > Output/Tests.testfile71.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile71.txt > Output/Tests.testfile71.txt..FCFS
+PASSED at Output/Tests.testfile71.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile49.txt > Output/Tests.testfile49.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile49.txt > Output/Tests.testfile49.txt..FCFS
+PASSED at Output/Tests.testfile49.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile74.txt > Output/Tests.testfile74.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile74.txt > Output/Tests.testfile74.txt..FCFS
+PASSED at Output/Tests.testfile74.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile31.txt > Output/Tests.testfile31.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile31.txt > Output/Tests.testfile31.txt..FCFS
+PASSED at Output/Tests.testfile31.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile15.txt > Output/Tests.testfile15.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile15.txt > Output/Tests.testfile15.txt..FCFS
+PASSED at Output/Tests.testfile15.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile27.txt > Output/Tests.testfile27.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile27.txt > Output/Tests.testfile27.txt..FCFS
+PASSED at Output/Tests.testfile27.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile89.txt > Output/Tests.testfile89.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile89.txt > Output/Tests.testfile89.txt..FCFS
+PASSED at Output/Tests.testfile89.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile23.txt > Output/Tests.testfile23.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile23.txt > Output/Tests.testfile23.txt..FCFS
+PASSED at Output/Tests.testfile23.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile98.txt > Output/Tests.testfile98.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile98.txt > Output/Tests.testfile98.txt..FCFS
+PASSED at Output/Tests.testfile98.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile93.txt > Output/Tests.testfile93.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile93.txt > Output/Tests.testfile93.txt..FCFS
+PASSED at Output/Tests.testfile93.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile16.txt > Output/Tests.testfile16.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile16.txt > Output/Tests.testfile16.txt..FCFS
+PASSED at Output/Tests.testfile16.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile73.txt > Output/Tests.testfile73.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile73.txt > Output/Tests.testfile73.txt..FCFS
+PASSED at Output/Tests.testfile73.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/job.info.stcf > Output/Tests.job.info.stcfBin.fcfs
+timeout 2 ./FCFS Tests/job.info.stcf > Output/Tests.job.info.stcf..FCFS
+PASSED at Output/Tests.job.info.stcfBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile84.txt > Output/Tests.testfile84.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile84.txt > Output/Tests.testfile84.txt..FCFS
+PASSED at Output/Tests.testfile84.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile5.txt > Output/Tests.testfile5.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile5.txt > Output/Tests.testfile5.txt..FCFS
+PASSED at Output/Tests.testfile5.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile11.txt > Output/Tests.testfile11.txtBin.fcfs1175.24324
+1082.40541
+1188.45946
+1066.95946
+1305.21795
+1250.82051
+1319.33333
+1234.75641
+1435.97222
+1330.00000
+
+timeout 2 ./FCFS Tests/testfile11.txt > Output/Tests.testfile11.txt..FCFS
+PASSED at Output/Tests.testfile11.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile19.txt > Output/Tests.testfile19.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile19.txt > Output/Tests.testfile19.txt..FCFS
+PASSED at Output/Tests.testfile19.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile14.txt > Output/Tests.testfile14.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile14.txt > Output/Tests.testfile14.txt..FCFS
+PASSED at Output/Tests.testfile14.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile39.txt > Output/Tests.testfile39.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile39.txt > Output/Tests.testfile39.txt..FCFS
+PASSED at Output/Tests.testfile39.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile40.txt > Output/Tests.testfile40.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile40.txt > Output/Tests.testfile40.txt..FCFS
+PASSED at Output/Tests.testfile40.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile17.txt > Output/Tests.testfile17.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile17.txt > Output/Tests.testfile17.txt..FCFS
+PASSED at Output/Tests.testfile17.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile97.txt > Output/Tests.testfile97.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile97.txt > Output/Tests.testfile97.txt..FCFS
+PASSED at Output/Tests.testfile97.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile10.txt > Output/Tests.testfile10.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile10.txt > Output/Tests.testfile10.txt..FCFS
+PASSED at Output/Tests.testfile10.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile79.txt > Output/Tests.testfile79.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile79.txt > Output/Tests.testfile79.txt..FCFS
+PASSED at Output/Tests.testfile79.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile86.txt > Output/Tests.testfile86.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile86.txt > Output/Tests.testfile86.txt..FCFS
+PASSED at Output/Tests.testfile86.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile80.txt > Output/Tests.testfile80.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile80.txt > Output/Tests.testfile80.txt..FCFS
+PASSED at Output/Tests.testfile80.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile99.txt > Output/Tests.testfile99.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile99.txt > Output/Tests.testfile99.txt..FCFS
+PASSED at Output/Tests.testfile99.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile2.txt > Output/Tests.testfile2.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile2.txt > Output/Tests.testfile2.txt..FCFS
+PASSED at Output/Tests.testfile2.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile48.txt > Output/Tests.testfile48.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile48.txt > Output/Tests.testfile48.txt..FCFS
+PASSED at Output/Tests.testfile48.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile62.txt > Output/Tests.testfile62.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile62.txt > Output/Tests.testfile62.txt..FCFS
+PASSED at Output/Tests.testfile62.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile0.txt > Output/Tests.testfile0.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile0.txt > Output/Tests.testfile0.txt..FCFS
+PASSED at Output/Tests.testfile0.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile61.txt > Output/Tests.testfile61.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile61.txt > Output/Tests.testfile61.txt..FCFS
+PASSED at Output/Tests.testfile61.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile83.txt > Output/Tests.testfile83.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile83.txt > Output/Tests.testfile83.txt..FCFS
+PASSED at Output/Tests.testfile83.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile43.txt > Output/Tests.testfile43.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile43.txt > Output/Tests.testfile43.txt..FCFS
+PASSED at Output/Tests.testfile43.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile18.txt > Output/Tests.testfile18.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile18.txt > Output/Tests.testfile18.txt..FCFS
+PASSED at Output/Tests.testfile18.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile25.txt > Output/Tests.testfile25.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile25.txt > Output/Tests.testfile25.txt..FCFS
+PASSED at Output/Tests.testfile25.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile34.txt > Output/Tests.testfile34.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile34.txt > Output/Tests.testfile34.txt..FCFS
+PASSED at Output/Tests.testfile34.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile9.txt > Output/Tests.testfile9.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile9.txt > Output/Tests.testfile9.txt..FCFS
+PASSED at Output/Tests.testfile9.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile3.txt > Output/Tests.testfile3.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile3.txt > Output/Tests.testfile3.txt..FCFS
+PASSED at Output/Tests.testfile3.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile96.txt > Output/Tests.testfile96.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile96.txt > Output/Tests.testfile96.txt..FCFS
+PASSED at Output/Tests.testfile96.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile66.txt > Output/Tests.testfile66.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile66.txt > Output/Tests.testfile66.txt..FCFS
+PASSED at Output/Tests.testfile66.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile20.txt > Output/Tests.testfile20.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile20.txt > Output/Tests.testfile20.txt..FCFS
+PASSED at Output/Tests.testfile20.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile32.txt > Output/Tests.testfile32.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile32.txt > Output/Tests.testfile32.txt..FCFS
+PASSED at Output/Tests.testfile32.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile91.txt > Output/Tests.testfile91.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile91.txt > Output/Tests.testfile91.txt..FCFS
+PASSED at Output/Tests.testfile91.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile24.txt > Output/Tests.testfile24.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile24.txt > Output/Tests.testfile24.txt..FCFS
+PASSED at Output/Tests.testfile24.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile7.txt > Output/Tests.testfile7.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile7.txt > Output/Tests.testfile7.txt..FCFS
+PASSED at Output/Tests.testfile7.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile87.txt > Output/Tests.testfile87.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile87.txt > Output/Tests.testfile87.txt..FCFS
+PASSED at Output/Tests.testfile87.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile30.txt > Output/Tests.testfile30.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile30.txt > Output/Tests.testfile30.txt..FCFS
+PASSED at Output/Tests.testfile30.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/job.info.sjf > Output/Tests.job.info.sjfBin.fcfs
+timeout 2 ./FCFS Tests/job.info.sjf > Output/Tests.job.info.sjf..FCFS
+PASSED at Output/Tests.job.info.sjfBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile22.txt > Output/Tests.testfile22.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile22.txt > Output/Tests.testfile22.txt..FCFS
+PASSED at Output/Tests.testfile22.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile52.txt > Output/Tests.testfile52.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile52.txt > Output/Tests.testfile52.txt..FCFS
+PASSED at Output/Tests.testfile52.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile65.txt > Output/Tests.testfile65.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile65.txt > Output/Tests.testfile65.txt..FCFS
+PASSED at Output/Tests.testfile65.txtBin.fcfs
+
+timeout 2 Bin/fcfs Tests/testfile56.txt > Output/Tests.testfile56.txtBin.fcfs
+timeout 2 ./FCFS Tests/testfile56.txt > Output/Tests.testfile56.txt..FCFS
+PASSED at Output/Tests.testfile56.txtBin.fcfs
+
+timeout 2 Bin/stcf Tests/testfile21.txt > Output/Tests.testfile21.txtBin.stcf
+timeout 2 ./STCF Tests/testfile21.txt > Output/Tests.testfile21.txt..STCF
+FAILED! at Output/Tests.testfile21.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile57.txt > Output/Tests.testfile57.txtBin.stcf
+timeout 2 ./STCF Tests/testfile57.txt > Output/Tests.testfile57.txt..STCF
+FAILED! at Output/Tests.testfile57.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile35.txt > Output/Tests.testfile35.txtBin.stcf
+timeout 2 ./STCF Tests/testfile35.txt > Output/Tests.testfile35.txt..STCF
+FAILED! at Output/Tests.testfile35.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile67.txt > Output/Tests.testfile67.txtBin.stcf
+timeout 2 ./STCF Tests/testfile67.txt > Output/Tests.testfile67.txt..STCF350.52174
+301.43478
+357.73913
+280.26087
+826.33929
+773.78571
+836.26786
+757.78571
+308.38462
+242.23077
+319.46154
+231.61538
+117.54545
+69.63636
+122.54545
+67.45455
+198.16667
+98.33333
+201.66667
+94.83333
+573.73684
+471.26316
+3.00000
+0.00000
+1345.07407
+1295.50617
+1364.74074
+1275.79012
+1477.76238
+1360.37624
+448.61538
+399.20513
+463.00000
+378.69231
+762.26190
+628.42857
+1180.18919
+1114.98649
+1191.67568
+1100.98649
+302.36000
+241.24000
+191.25000
+125.50000
+198.12500
+58.25000
+919.49180
+870.65574
+929.14754
+860.78689
+1388.54945
+1293.21978
+1435.20879
+1386.67033
+1456.12088
+1366.16484
+454.58621
+403.62069
+466.10345
+393.24138
+1106.34328
+991.65672
+448.15385
+375.96154
+452.42308
+363.11538
+838.38776
+703.16327
+210.25000
+148.58333
+210.25000
+139.66667
+1529.69149
+1375.88298
+941.05263
+858.28070
+881.36538
+812.73077
+877.51613
+806.56452
+1295.84507
+1160.32394
+600.82500
+510.37500
+607.50000
+495.95000
+412.88235
+365.32353
+418.91176
+357.29412
+1580.36842
+1481.97895
+1107.47619
+1054.41270
+1120.76190
+1041.68254
+895.58696
+834.97826
+907.34783
+822.47826
+539.31034
+433.68966
+544.41379
+425.03448
+945.16667
+881.38333
+955.33333
+865.16667
+735.69767
+640.13953
+1637.92929
+1543.44444
+1441.09184
+1354.47959
+
+FAILED! at Output/Tests.testfile67.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile50.txt > Output/Tests.testfile50.txtBin.stcf
+timeout 2 ./STCF Tests/testfile50.txt > Output/Tests.testfile50.txt..STCF
+FAILED! at Output/Tests.testfile50.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile81.txt > Output/Tests.testfile81.txtBin.stcf
+timeout 2 ./STCF Tests/testfile81.txt > Output/Tests.testfile81.txt..STCF
+FAILED! at Output/Tests.testfile81.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile95.txt > Output/Tests.testfile95.txtBin.stcf
+timeout 2 ./STCF Tests/testfile95.txt > Output/Tests.testfile95.txt..STCF
+FAILED! at Output/Tests.testfile95.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile88.txt > Output/Tests.testfile88.txtBin.stcf
+timeout 2 ./STCF Tests/testfile88.txt > Output/Tests.testfile88.txt..STCF
+FAILED! at Output/Tests.testfile88.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile53.txt > Output/Tests.testfile53.txtBin.stcf
+timeout 2 ./STCF Tests/testfile53.txt > Output/Tests.testfile53.txt..STCF
+FAILED! at Output/Tests.testfile53.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile77.txt > Output/Tests.testfile77.txtBin.stcf
+timeout 2 ./STCF Tests/testfile77.txt > Output/Tests.testfile77.txt..STCF
+FAILED! at Output/Tests.testfile77.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile46.txt > Output/Tests.testfile46.txtBin.stcf
+timeout 2 ./STCF Tests/testfile46.txt > Output/Tests.testfile46.txt..STCF
+FAILED! at Output/Tests.testfile46.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile1.txt > Output/Tests.testfile1.txtBin.stcf
+timeout 2 ./STCF Tests/testfile1.txt > Output/Tests.testfile1.txt..STCF
+FAILED! at Output/Tests.testfile1.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile78.txt > Output/Tests.testfile78.txtBin.stcf
+timeout 2 ./STCF Tests/testfile78.txt > Output/Tests.testfile78.txt..STCF
+PASSED at Output/Tests.testfile78.txtBin.stcf
+
+timeout 2 Bin/stcf Tests/testfile60.txt > Output/Tests.testfile60.txtBin.stcf
+timeout 2 ./STCF Tests/testfile60.txt > Output/Tests.testfile60.txt..STCF
+FAILED! at Output/Tests.testfile60.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile4.txt > Output/Tests.testfile4.txtBin.stcf
+timeout 2 ./STCF Tests/testfile4.txt > Output/Tests.testfile4.txt..STCF
+FAILED! at Output/Tests.testfile4.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile68.txt > Output/Tests.testfile68.txtBin.stcf
+timeout 2 ./STCF Tests/testfile68.txt > Output/Tests.testfile68.txt..STCF
+FAILED! at Output/Tests.testfile68.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile82.txt > Output/Tests.testfile82.txtBin.stcf
+timeout 2 ./STCF Tests/testfile82.txt > Output/Tests.testfile82.txt..STCF
+FAILED! at Output/Tests.testfile82.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile38.txt > Output/Tests.testfile38.txtBin.stcf
+timeout 2 ./STCF Tests/testfile38.txt > Output/Tests.testfile38.txt..STCF
+FAILED! at Output/Tests.testfile38.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile47.txt > Output/Tests.testfile47.txtBin.stcf
+timeout 2 ./STCF Tests/testfile47.txt > Output/Tests.testfile47.txt..STCF
+FAILED! at Output/Tests.testfile47.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile75.txt > Output/Tests.testfile75.txtBin.stcf
+timeout 2 ./STCF Tests/testfile75.txt > Output/Tests.testfile75.txt..STCF
+FAILED! at Output/Tests.testfile75.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile28.txt > Output/Tests.testfile28.txtBin.stcf
+timeout 2 ./STCF Tests/testfile28.txt > Output/Tests.testfile28.txt..STCF
+FAILED! at Output/Tests.testfile28.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile37.txt > Output/Tests.testfile37.txtBin.stcf
+timeout 2 ./STCF Tests/testfile37.txt > Output/Tests.testfile37.txt..STCF
+FAILED! at Output/Tests.testfile37.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile92.txt > Output/Tests.testfile92.txtBin.stcf
+timeout 2 ./STCF Tests/testfile92.txt > Output/Tests.testfile92.txt..STCF
+FAILED! at Output/Tests.testfile92.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile58.txt > Output/Tests.testfile58.txtBin.stcf
+timeout 2 ./STCF Tests/testfile58.txt > Output/Tests.testfile58.txt..STCF
+FAILED! at Output/Tests.testfile58.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile70.txt > Output/Tests.testfile70.txtBin.stcf
+timeout 2 ./STCF Tests/testfile70.txt > Output/Tests.testfile70.txt..STCF
+FAILED! at Output/Tests.testfile70.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile72.txt > Output/Tests.testfile72.txtBin.stcf
+timeout 2 ./STCF Tests/testfile72.txt > Output/Tests.testfile72.txt..STCF
+FAILED! at Output/Tests.testfile72.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile94.txt > Output/Tests.testfile94.txtBin.stcf
+timeout 2 ./STCF Tests/testfile94.txt > Output/Tests.testfile94.txt..STCF
+FAILED! at Output/Tests.testfile94.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile36.txt > Output/Tests.testfile36.txtBin.stcf
+timeout 2 ./STCF Tests/testfile36.txt > Output/Tests.testfile36.txt..STCF
+FAILED! at Output/Tests.testfile36.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile42.txt > Output/Tests.testfile42.txtBin.stcf
+timeout 2 ./STCF Tests/testfile42.txt > Output/Tests.testfile42.txt..STCF
+FAILED! at Output/Tests.testfile42.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile13.txt > Output/Tests.testfile13.txtBin.stcf
+timeout 2 ./STCF Tests/testfile13.txt > Output/Tests.testfile13.txt..STCF
+FAILED! at Output/Tests.testfile13.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile55.txt > Output/Tests.testfile55.txtBin.stcf
+timeout 2 ./STCF Tests/testfile55.txt > Output/Tests.testfile55.txt..STCF
+FAILED! at Output/Tests.testfile55.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile76.txt > Output/Tests.testfile76.txtBin.stcf
+timeout 2 ./STCF Tests/testfile76.txt > Output/Tests.testfile76.txt..STCF
+FAILED! at Output/Tests.testfile76.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile26.txt > Output/Tests.testfile26.txtBin.stcf
+timeout 2 ./STCF Tests/testfile26.txt > Output/Tests.testfile26.txt..STCF
+FAILED! at Output/Tests.testfile26.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile64.txt > Output/Tests.testfile64.txtBin.stcf
+timeout 2 ./STCF Tests/testfile64.txt > Output/Tests.testfile64.txt..STCF
+FAILED! at Output/Tests.testfile64.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile8.txt > Output/Tests.testfile8.txtBin.stcf
+timeout 2 ./STCF Tests/testfile8.txt > Output/Tests.testfile8.txt..STCF
+FAILED! at Output/Tests.testfile8.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile85.txt > Output/Tests.testfile85.txtBin.stcf
+timeout 2 ./STCF Tests/testfile85.txt > Output/Tests.testfile85.txt..STCF
+FAILED! at Output/Tests.testfile85.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile33.txt > Output/Tests.testfile33.txtBin.stcf
+timeout 2 ./STCF Tests/testfile33.txt > Output/Tests.testfile33.txt..STCF
+FAILED! at Output/Tests.testfile33.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile63.txt > Output/Tests.testfile63.txtBin.stcf
+timeout 2 ./STCF Tests/testfile63.txt > Output/Tests.testfile63.txt..STCF
+FAILED! at Output/Tests.testfile63.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile51.txt > Output/Tests.testfile51.txtBin.stcf
+timeout 2 ./STCF Tests/testfile51.txt > Output/Tests.testfile51.txt..STCF
+FAILED! at Output/Tests.testfile51.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile59.txt > Output/Tests.testfile59.txtBin.stcf
+timeout 2 ./STCF Tests/testfile59.txt > Output/Tests.testfile59.txt..STCF
+FAILED! at Output/Tests.testfile59.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile44.txt > Output/Tests.testfile44.txtBin.stcf
+timeout 2 ./STCF Tests/testfile44.txt > Output/Tests.testfile44.txt..STCF
+FAILED! at Output/Tests.testfile44.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/job.info.fcfs > Output/Tests.job.info.fcfsBin.stcf
+timeout 2 ./STCF Tests/job.info.fcfs > Output/Tests.job.info.fcfs..STCF
+PASSED at Output/Tests.job.info.fcfsBin.stcf911.10204
+819.40816
+787.77551
+682.75510
+1300.01429
+1208.87143
+1318.34286
+1186.48571
+497.50000
+449.27778
+503.58333
+442.97222
+852.77358
+799.16981
+865.00000
+767.41509
+1446.71591
+1381.26136
+1465.79545
+1350.65909
+808.15217
+740.02174
+821.06522
+724.21739
+995.73973
+913.57534
+1005.63014
+898.15068
+642.10526
+573.81579
+377.34783
+264.39130
+381.56522
+251.56522
+967.23529
+833.05882
+1362.32941
+1197.00000
+1104.13043
+1018.39130
+1215.80723
+1128.96386
+338.75000
+258.75000
+343.81250
+248.31250
+714.90476
+633.11905
+728.69048
+621.97619
+644.68966
+583.27586
+654.75862
+560.24138
+1142.95522
+1054.31343
+0.00000
+0.00000
+635.11429
+553.71429
+643.22857
+546.00000
+844.19149
+708.85106
+357.73684
+300.63158
+358.63158
+293.15789
+537.08108
+485.02703
+546.35135
+472.35135
+840.58333
+764.00000
+854.62500
+737.35417
+673.04651
+605.76744
+689.13953
+571.79070
+1565.63636
+1442.92045
+615.95122
+566.92683
+622.78049
+559.63415
+391.15385
+319.23077
+1423.24691
+1328.37037
+1184.37500
+1110.87500
+1199.51562
+1096.79688
+902.56140
+803.84211
+1571.56436
+1518.55446
+1594.03960
+1494.13861
+976.86207
+874.20690
+1234.44595
+1132.85135
+1297.64865
+1188.86486
+
+
+timeout 2 Bin/stcf Tests/testfile12.txt > Output/Tests.testfile12.txtBin.stcf
+timeout 2 ./STCF Tests/testfile12.txt > Output/Tests.testfile12.txt..STCF
+FAILED! at Output/Tests.testfile12.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile29.txt > Output/Tests.testfile29.txtBin.stcf
+timeout 2 ./STCF Tests/testfile29.txt > Output/Tests.testfile29.txt..STCF
+FAILED! at Output/Tests.testfile29.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile6.txt > Output/Tests.testfile6.txtBin.stcf
+timeout 2 ./STCF Tests/testfile6.txt > Output/Tests.testfile6.txt..STCF
+PASSED at Output/Tests.testfile6.txtBin.stcf
+
+timeout 2 Bin/stcf Tests/testfile54.txt > Output/Tests.testfile54.txtBin.stcf
+timeout 2 ./STCF Tests/testfile54.txt > Output/Tests.testfile54.txt..STCF
+FAILED! at Output/Tests.testfile54.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile45.txt > Output/Tests.testfile45.txtBin.stcf
+timeout 2 ./STCF Tests/testfile45.txt > Output/Tests.testfile45.txt..STCF
+FAILED! at Output/Tests.testfile45.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile41.txt > Output/Tests.testfile41.txtBin.stcf
+timeout 2 ./STCF Tests/testfile41.txt > Output/Tests.testfile41.txt..STCF
+FAILED! at Output/Tests.testfile41.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile69.txt > Output/Tests.testfile69.txtBin.stcf
+timeout 2 ./STCF Tests/testfile69.txt > Output/Tests.testfile69.txt..STCF
+FAILED! at Output/Tests.testfile69.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile90.txt > Output/Tests.testfile90.txtBin.stcf
+timeout 2 ./STCF Tests/testfile90.txt > Output/Tests.testfile90.txt..STCF
+FAILED! at Output/Tests.testfile90.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile71.txt > Output/Tests.testfile71.txtBin.stcf
+timeout 2 ./STCF Tests/testfile71.txt > Output/Tests.testfile71.txt..STCF
+FAILED! at Output/Tests.testfile71.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile49.txt > Output/Tests.testfile49.txtBin.stcf
+timeout 2 ./STCF Tests/testfile49.txt > Output/Tests.testfile49.txt..STCF
+FAILED! at Output/Tests.testfile49.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile74.txt > Output/Tests.testfile74.txtBin.stcf
+timeout 2 ./STCF Tests/testfile74.txt > Output/Tests.testfile74.txt..STCF
+FAILED! at Output/Tests.testfile74.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile31.txt > Output/Tests.testfile31.txtBin.stcf
+timeout 2 ./STCF Tests/testfile31.txt > Output/Tests.testfile31.txt..STCF
+FAILED! at Output/Tests.testfile31.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile15.txt > Output/Tests.testfile15.txtBin.stcf
+timeout 2 ./STCF Tests/testfile15.txt > Output/Tests.testfile15.txt..STCF
+FAILED! at Output/Tests.testfile15.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile27.txt > Output/Tests.testfile27.txtBin.stcf
+timeout 2 ./STCF Tests/testfile27.txt > Output/Tests.testfile27.txt..STCF
+FAILED! at Output/Tests.testfile27.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile89.txt > Output/Tests.testfile89.txtBin.stcf
+timeout 2 ./STCF Tests/testfile89.txt > Output/Tests.testfile89.txt..STCF
+FAILED! at Output/Tests.testfile89.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile23.txt > Output/Tests.testfile23.txtBin.stcf
+timeout 2 ./STCF Tests/testfile23.txt > Output/Tests.testfile23.txt..STCF
+FAILED! at Output/Tests.testfile23.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile98.txt > Output/Tests.testfile98.txtBin.stcf
+timeout 2 ./STCF Tests/testfile98.txt > Output/Tests.testfile98.txt..STCF
+FAILED! at Output/Tests.testfile98.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile93.txt > Output/Tests.testfile93.txtBin.stcf
+timeout 2 ./STCF Tests/testfile93.txt > Output/Tests.testfile93.txt..STCF
+FAILED! at Output/Tests.testfile93.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile16.txt > Output/Tests.testfile16.txtBin.stcf
+timeout 2 ./STCF Tests/testfile16.txt > Output/Tests.testfile16.txt..STCF
+FAILED! at Output/Tests.testfile16.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile73.txt > Output/Tests.testfile73.txtBin.stcf
+timeout 2 ./STCF Tests/testfile73.txt > Output/Tests.testfile73.txt..STCF
+FAILED! at Output/Tests.testfile73.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/job.info.stcf > Output/Tests.job.info.stcfBin.stcf
+timeout 2 ./STCF Tests/job.info.stcf > Output/Tests.job.info.stcf..STCF
+PASSED at Output/Tests.job.info.stcfBin.stcf
+
+timeout 2 Bin/stcf Tests/testfile84.txt > Output/Tests.testfile84.txtBin.stcf
+timeout 2 ./STCF Tests/testfile84.txt > Output/Tests.testfile84.txt..STCF
+PASSED at Output/Tests.testfile84.txtBin.stcf
+
+timeout 2 Bin/stcf Tests/testfile5.txt > Output/Tests.testfile5.txtBin.stcf
+timeout 2 ./STCF Tests/testfile5.txt > Output/Tests.testfile5.txt..STCF
+FAILED! at Output/Tests.testfile5.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile11.txt > Output/Tests.testfile11.txtBin.stcf
+timeout 2 ./STCF Tests/testfile11.txt > Output/Tests.testfile11.txt..STCF
+FAILED! at Output/Tests.testfile11.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile19.txt > Output/Tests.testfile19.txtBin.stcf
+timeout 2 ./STCF Tests/testfile19.txt > Output/Tests.testfile19.txt..STCF
+FAILED! at Output/Tests.testfile19.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile14.txt > Output/Tests.testfile14.txtBin.stcf
+timeout 2 ./STCF Tests/testfile14.txt > Output/Tests.testfile14.txt..STCF
+FAILED! at Output/Tests.testfile14.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile39.txt > Output/Tests.testfile39.txtBin.stcf
+timeout 2 ./STCF Tests/testfile39.txt > Output/Tests.testfile39.txt..STCF
+FAILED! at Output/Tests.testfile39.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile40.txt > Output/Tests.testfile40.txtBin.stcf
+timeout 2 ./STCF Tests/testfile40.txt > Output/Tests.testfile40.txt..STCF
+FAILED! at Output/Tests.testfile40.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile17.txt > Output/Tests.testfile17.txtBin.stcf
+timeout 2 ./STCF Tests/testfile17.txt > Output/Tests.testfile17.txt..STCF
+FAILED! at Output/Tests.testfile17.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile97.txt > Output/Tests.testfile97.txtBin.stcf
+timeout 2 ./STCF Tests/testfile97.txt > Output/Tests.testfile97.txt..STCF
+FAILED! at Output/Tests.testfile97.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile10.txt > Output/Tests.testfile10.txtBin.stcf
+timeout 2 ./STCF Tests/testfile10.txt > Output/Tests.testfile10.txt..STCF
+FAILED! at Output/Tests.testfile10.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile79.txt > Output/Tests.testfile79.txtBin.stcf
+timeout 2 ./STCF Tests/testfile79.txt > Output/Tests.testfile79.txt..STCF
+FAILED! at Output/Tests.testfile79.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile86.txt > Output/Tests.testfile86.txtBin.stcf
+timeout 2 ./STCF Tests/testfile86.txt > Output/Tests.testfile86.txt..STCF
+FAILED! at Output/Tests.testfile86.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile80.txt > Output/Tests.testfile80.txtBin.stcf
+timeout 2 ./STCF Tests/testfile80.txt > Output/Tests.testfile80.txt..STCF
+FAILED! at Output/Tests.testfile80.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile99.txt > Output/Tests.testfile99.txtBin.stcf
+timeout 2 ./STCF Tests/testfile99.txt > Output/Tests.testfile99.txt..STCF
+FAILED! at Output/Tests.testfile99.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile2.txt > Output/Tests.testfile2.txtBin.stcf
+timeout 2 ./STCF Tests/testfile2.txt > Output/Tests.testfile2.txt..STCF
+FAILED! at Output/Tests.testfile2.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile48.txt > Output/Tests.testfile48.txtBin.stcf
+timeout 2 ./STCF Tests/testfile48.txt > Output/Tests.testfile48.txt..STCF
+FAILED! at Output/Tests.testfile48.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile62.txt > Output/Tests.testfile62.txtBin.stcf
+timeout 2 ./STCF Tests/testfile62.txt > Output/Tests.testfile62.txt..STCF
+FAILED! at Output/Tests.testfile62.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile0.txt > Output/Tests.testfile0.txtBin.stcf920.26667
+847.05000
+751.02381
+695.38095
+764.42857
+673.50000
+308.58333
+262.12500
+310.33333
+259.58333
+1314.39241
+1223.96203
+1041.86667
+996.90667
+1054.57333
+984.45333
+844.51786
+794.19643
+857.67857
+781.44643
+507.81081
+433.67568
+322.93750
+237.31250
+330.62500
+228.81250
+1544.68817
+1466.90323
+1563.22581
+1444.27957
+347.37500
+296.16667
+354.37500
+289.62500
+941.41071
+888.33929
+948.87500
+880.48214
+1701.80247
+1601.18519
+229.90000
+129.50000
+1300.55422
+1206.89157
+1313.44578
+1193.14458
+659.47619
+605.14286
+666.92857
+586.40476
+1659.40426
+1550.47872
+1431.85000
+1350.11000
+940.43396
+887.05660
+953.73585
+873.58491
+258.22222
+176.66667
+154.62500
+52.25000
+163.00000
+31.87500
+844.79245
+759.79245
+860.98113
+732.50943
+1504.24731
+1446.38710
+1523.41935
+1425.54839
+
+timeout 2 ./STCF Tests/testfile0.txt > Output/Tests.testfile0.txt..STCF
+FAILED! at Output/Tests.testfile0.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile61.txt > Output/Tests.testfile61.txtBin.stcf
+timeout 2 ./STCF Tests/testfile61.txt > Output/Tests.testfile61.txt..STCF
+FAILED! at Output/Tests.testfile61.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile83.txt > Output/Tests.testfile83.txtBin.stcf
+timeout 2 ./STCF Tests/testfile83.txt > Output/Tests.testfile83.txt..STCF
+FAILED! at Output/Tests.testfile83.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile43.txt > Output/Tests.testfile43.txtBin.stcf
+timeout 2 ./STCF Tests/testfile43.txt > Output/Tests.testfile43.txt..STCF
+FAILED! at Output/Tests.testfile43.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile18.txt > Output/Tests.testfile18.txtBin.stcf
+timeout 2 ./STCF Tests/testfile18.txt > Output/Tests.testfile18.txt..STCF
+FAILED! at Output/Tests.testfile18.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile25.txt > Output/Tests.testfile25.txtBin.stcf
+timeout 2 ./STCF Tests/testfile25.txt > Output/Tests.testfile25.txt..STCF
+FAILED! at Output/Tests.testfile25.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile34.txt > Output/Tests.testfile34.txtBin.stcf
+timeout 2 ./STCF Tests/testfile34.txt > Output/Tests.testfile34.txt..STCF
+FAILED! at Output/Tests.testfile34.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile9.txt > Output/Tests.testfile9.txtBin.stcf
+timeout 2 ./STCF Tests/testfile9.txt > Output/Tests.testfile9.txt..STCF
+FAILED! at Output/Tests.testfile9.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile3.txt > Output/Tests.testfile3.txtBin.stcf
+timeout 2 ./STCF Tests/testfile3.txt > Output/Tests.testfile3.txt..STCF
+FAILED! at Output/Tests.testfile3.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile96.txt > Output/Tests.testfile96.txtBin.stcf
+timeout 2 ./STCF Tests/testfile96.txt > Output/Tests.testfile96.txt..STCF
+FAILED! at Output/Tests.testfile96.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile66.txt > Output/Tests.testfile66.txtBin.stcf
+timeout 2 ./STCF Tests/testfile66.txt > Output/Tests.testfile66.txt..STCF
+FAILED! at Output/Tests.testfile66.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile20.txt > Output/Tests.testfile20.txtBin.stcf
+timeout 2 ./STCF Tests/testfile20.txt > Output/Tests.testfile20.txt..STCF
+FAILED! at Output/Tests.testfile20.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile32.txt > Output/Tests.testfile32.txtBin.stcf
+timeout 2 ./STCF Tests/testfile32.txt > Output/Tests.testfile32.txt..STCF
+FAILED! at Output/Tests.testfile32.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile91.txt > Output/Tests.testfile91.txtBin.stcf
+timeout 2 ./STCF Tests/testfile91.txt > Output/Tests.testfile91.txt..STCF
+FAILED! at Output/Tests.testfile91.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile24.txt > Output/Tests.testfile24.txtBin.stcf
+timeout 2 ./STCF Tests/testfile24.txt > Output/Tests.testfile24.txt..STCF
+FAILED! at Output/Tests.testfile24.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile7.txt > Output/Tests.testfile7.txtBin.stcf
+timeout 2 ./STCF Tests/testfile7.txt > Output/Tests.testfile7.txt..STCF
+FAILED! at Output/Tests.testfile7.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile87.txt > Output/Tests.testfile87.txtBin.stcf
+timeout 2 ./STCF Tests/testfile87.txt > Output/Tests.testfile87.txt..STCF
+FAILED! at Output/Tests.testfile87.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile30.txt > Output/Tests.testfile30.txtBin.stcf
+timeout 2 ./STCF Tests/testfile30.txt > Output/Tests.testfile30.txt..STCF
+FAILED! at Output/Tests.testfile30.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/job.info.sjf > Output/Tests.job.info.sjfBin.stcf
+timeout 2 ./STCF Tests/job.info.sjf > Output/Tests.job.info.sjf..STCF
+PASSED at Output/Tests.job.info.sjfBin.stcf
+
+timeout 2 Bin/stcf Tests/testfile22.txt > Output/Tests.testfile22.txtBin.stcf
+timeout 2 ./STCF Tests/testfile22.txt > Output/Tests.testfile22.txt..STCF
+FAILED! at Output/Tests.testfile22.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile52.txt > Output/Tests.testfile52.txtBin.stcf
+timeout 2 ./STCF Tests/testfile52.txt > Output/Tests.testfile52.txt..STCF
+FAILED! at Output/Tests.testfile52.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile65.txt > Output/Tests.testfile65.txtBin.stcf
+timeout 2 ./STCF Tests/testfile65.txt > Output/Tests.testfile65.txt..STCF
+FAILED! at Output/Tests.testfile65.txtBin.stcf
+Expecting:
+Got:
+
+timeout 2 Bin/stcf Tests/testfile56.txt > Output/Tests.testfile56.txtBin.stcf
+timeout 2 ./STCF Tests/testfile56.txt > Output/Tests.testfile56.txt..STCF
+FAILED! at Output/Tests.testfile56.txtBin.stcf
+Expecting:
+Got:
+

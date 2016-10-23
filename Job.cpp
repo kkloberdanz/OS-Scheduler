@@ -16,8 +16,12 @@ void Job::build_from_file(const char* filename) {
 
     // first line of input file will be the number of jobs
     getline(input_file, line);
-    //const size_t number_of_jobs = as_int(line);
-    total_jobs = as_int(line);
+
+    if (line.empty()) {
+        total_jobs = 0;
+    } else {
+        total_jobs = as_int(line);
+    }
 
     // Read from input file
     size_t order = 0;
@@ -31,6 +35,7 @@ void Job::build_from_file(const char* filename) {
             order++;
         }
     }
+    input_file.close();
 }
 
 void Job::push_job(size_t order, size_t t_arrival, size_t t_execution) {
@@ -56,11 +61,17 @@ void Job::print_jobs() {
 }
 
 void Job::print_avg_time(size_t t_turnaround, size_t t_total_response) {
-    printf("%.5f\n", ((double)t_turnaround / (double)total_jobs));
-    printf("%.5f\n", ((double)t_total_response / (double)total_jobs));
+    if (total_jobs != 0) {
+        printf("%.5f\n", ((double)t_turnaround /     (double)total_jobs));
+        printf("%.5f\n", ((double)t_total_response / (double)total_jobs));
+    } else { 
+        printf("%.5f\n", 0.0);
+        printf("%.5f\n", 0.0);
+    }
 }
 
 void Job::run_fcfs() {
+
     fcfs_sort();
 
     double t_current = 0;
@@ -74,12 +85,6 @@ void Job::run_fcfs() {
         t_current        += j.t_execution;
         t_turnaround     += t_current - j.t_arrival;
 
-#ifdef DEBUG
-        std::cout << "current   : " << t_current << std::endl;
-        std::cout << "response  : " << t_total_response << std::endl;
-        std::cout << "turnaround: " << t_turnaround << std::endl;
-        std::cout  << std::endl;
-#endif
     } 
     print_avg_time(t_turnaround, t_total_response);
 }
@@ -95,6 +100,7 @@ void Job::print_job_heap() {
 }
 
 void Job::run_sjf() {
+
     sjf_sort(); 
     struct job current_job;
     size_t t_current = 0;
@@ -130,25 +136,24 @@ void Job::run_sjf() {
 }
 
 void Job::get_jobs(size_t t_current) {
-    //std::cout << "current time: " << t_current << std::endl;
-    //std::cout << "job arrival time: " << jobs_v.back().t_arrival << std::endl;
     while ((not jobs_v.empty()) && 
-            jobs_v.back().t_arrival <= t_current) {
-
-            //std::cout << "here" << std::endl;
+            jobs_v.back().t_arrival <= t_current) { 
         min_h.add(jobs_v.at(jobs_v.size()-1));
         jobs_v.pop_back();
     }
 }
 
 void Job::run_stcf() {
-    stcf_sort(); 
+
     struct job current_job;
     size_t t_current = 0;
     size_t t_turnaround = 0;
     size_t t_total_response = 0;
 
+    stcf_sort(); 
+
     while ((not min_h.empty()) || (not jobs_v.empty()) ) {
+
 
         if (not jobs_v.empty()) {
             get_jobs(t_current);
@@ -201,7 +206,8 @@ void Job::sjf_sort() {
 }
 
 void Job::stcf_sort() {
-    std::sort(jobs_v.begin(), jobs_v.end(), stcf_sort_by);
+    //std::sort(jobs_v.begin(), jobs_v.end(), stcf_sort_by);
+    std::stable_sort(jobs_v.begin(), jobs_v.end(), stcf_sort_by);
 }
 
 bool Job::fcfs_sort_by(struct job j1, struct job j2) {
@@ -213,23 +219,6 @@ bool Job::fcfs_sort_by(struct job j1, struct job j2) {
 }
 
 bool Job::sjf_sort_by(struct job j1, struct job j2) { 
-    /*
-    if ((j1.t_arrival != j2.t_arrival) && 
-        (j1.t_execution == j2.t_execution)) {
-        return j1.t_arrival < j2.t_arrival;
-    } else {
-        return j1.t_execution < j2.t_execution;
-    }
-    */
-    /*
-    if ((j1.t_arrival != j2.t_arrival) && 
-        (j1.t_execution == j2.t_execution)) {
-        return j1.t_arrival > j2.t_arrival;
-    } else {
-        return j1.t_execution > j2.t_execution;
-    }
-    */
-    //return j1.t_arrival > j2.t_arrival;
     if (j1.t_arrival == j2.t_arrival) {
         return j1.t_execution > j2.t_execution;
     } else {
