@@ -163,9 +163,18 @@ void Job::run_stcf() {
 
             if (not min_h.peek().started) {
                 t_total_response += t_current - min_h.peek().t_arrival;
+                //std::cout << "RESPONSE TIME: " << t_current - min_h.peek().t_arrival << std::endl;
+#ifdef DEBUG
+                std::cout << "current   : " << t_current << std::endl;
+                std::cout << "response  : " << t_total_response << std::endl;
+                std::cout << "turnaround: " << t_turnaround << std::endl;
+                std::cout  << std::endl;
+#endif
 
                 struct job tmp_job = min_h.peek();
                 min_h.pop();
+                //std::cout << "NEXT ON HEAP" << std::endl;
+                //print_job(min_h.peek());
                 tmp_job.started = true;
                 min_h.add(tmp_job);
             }
@@ -179,6 +188,8 @@ void Job::run_stcf() {
             } else {
                 current_job.t_exe_d--;
                 t_current++;
+                //std::cout << "Current Time: " << t_current << std::endl;
+                //print_job(current_job);
                 min_h.add(current_job);
             }
         } else {

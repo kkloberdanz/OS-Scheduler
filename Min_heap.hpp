@@ -28,6 +28,7 @@ class Min_heap {
             std::cout << "error: peeking at an empty heap" << std::endl;
             std::exit(EXIT_FAILURE);
         }
+        //std::cout << get_front().order << std::endl;
         return get_front();
     } 
 
@@ -63,8 +64,12 @@ class Min_heap {
 
   private:
 
-    static bool compare(T a, T b) {
-        return a.t_execution > b.t_execution;
+    static bool compare(T j1, T j2) {
+        if (j1.t_exe_d == j2.t_exe_d) {
+            return j1.t_arrival > j2.t_arrival;
+        } else {
+            return j1.t_exe_d > j2.t_exe_d;
+        }
     }
     std::vector<T> heap_v;
 };
