@@ -15,10 +15,10 @@ Program: Bin/fcfs
     Percent Success : 100.00%    Percent Timeouts: 0.00%
 
 Program: Bin/stcf
-    Total Tests     : 1003
-    Successes       : 626
-    Failures        : 0
-    Timeouts        : 377
+    Total Tests     : 655
+    Successes       : 577
+    Failures        : 78
+    Timeouts        : 348
 
-    Percent Success : 62.41%    Percent Timeouts: 37.59%
+    Percent Success : 88.09%    Percent Timeouts: 53.13%
 

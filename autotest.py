@@ -52,7 +52,9 @@ def run_test(my_programs, control_programs):
         num_success = 0
         num_fails = 0
         num_timeouts = 0
+        total_tests  = 0
         for testfile in os.listdir("Tests"):
+            total_tests += 1
             testfile = "Tests/" + testfile
 
             my_output = test_program(my_prog, testfile)
@@ -72,7 +74,7 @@ def run_test(my_programs, control_programs):
                 else:
                     num_fails += 1
 
-        total_tests = num_success + num_fails
+        num_timeouts = total_tests - (num_success + num_fails)
         analysis.write("Program: " + my_prog + "\n")
         analysis.write("    Total Tests     : " + str(total_tests) + "\n")
         analysis.write("    Successes       : " + str(num_success) + "\n")

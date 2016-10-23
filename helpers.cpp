@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 bool is_num(std::string s) {
     if (s == "") {
@@ -15,3 +16,4 @@ bool is_num(std::string s) {
 int as_int(std::string s) {
     return atoi(s.c_str());
 }
+

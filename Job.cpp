@@ -231,7 +231,11 @@ bool Job::fcfs_sort_by(struct job j1, struct job j2) {
 
 bool Job::sjf_sort_by(struct job j1, struct job j2) { 
     if (j1.t_arrival == j2.t_arrival) {
-        return j1.t_execution > j2.t_execution;
+        if (j1.t_execution == j2.t_execution) {
+            return j1.order > j2.order;
+        } else {
+            return j1.t_execution > j2.t_execution;
+        }
     } else {
         return j1.t_arrival > j2.t_arrival;
     }

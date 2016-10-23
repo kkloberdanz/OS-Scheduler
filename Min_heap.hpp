@@ -66,7 +66,11 @@ class Min_heap {
 
     static bool compare(T j1, T j2) {
         if (j1.t_exe_d == j2.t_exe_d) {
-            return j1.t_arrival > j2.t_arrival;
+            if (j1.t_arrival == j2.t_arrival) {
+                return j1.order > j2.order;
+            } else {
+                return j1.t_arrival > j2.t_arrival;
+            }
         } else {
             return j1.t_exe_d > j2.t_exe_d;
         }
