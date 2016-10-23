@@ -147,12 +147,7 @@ void Job::run_stcf() {
     size_t t_current = 0;
     size_t t_turnaround = 0;
     size_t t_total_response = 0;
-    bool   pause = false;
 
-    print_jobs();
-
-    size_t a = 0, b = 0;
-    std::cout << "Running stcf" << std::endl;
     while ((not min_h.empty()) || (not jobs_v.empty()) ) {
 
         if (not jobs_v.empty()) {
@@ -163,7 +158,6 @@ void Job::run_stcf() {
 
             if (not min_h.peek().started) {
                 t_total_response += t_current - min_h.peek().t_arrival;
-                std::cout << "RESPONSE: " << t_total_response << std::endl;
 
                 struct job tmp_job = min_h.peek();
                 min_h.pop();
@@ -171,20 +165,15 @@ void Job::run_stcf() {
                 min_h.add(tmp_job);
             }
 
-            auto prev_job = current_job;
             current_job = min_h.peek();
             min_h.pop();
 
             if (current_job.t_exe_d == 0) { 
                 t_turnaround += t_current - current_job.t_arrival; 
-                std::cout << "TURNAROUND: " << t_turnaround << std::endl;
 
-                std::cout << "----------------" << std::endl;
             } else {
                 current_job.t_exe_d--;
                 t_current++;
-                std::cout << "Current time: " << t_current << std::endl;
-                print_job(current_job);
                 min_h.add(current_job);
             }
         } else {
