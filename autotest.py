@@ -54,7 +54,6 @@ def run_test(my_programs, control_programs):
         num_timeouts = 0
         total_tests  = 0
         for testfile in os.listdir("Tests"):
-            total_tests += 1
             testfile = "Tests/" + testfile
 
             my_output = test_program(my_prog, testfile)
@@ -69,6 +68,7 @@ def run_test(my_programs, control_programs):
                 num_timeouts += 1
 
             else:
+                total_tests += 1
                 if check_hashes(my_output, control_output):
                     num_success += 1
                 else:

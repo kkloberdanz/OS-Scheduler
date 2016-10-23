@@ -1,0 +1,28 @@
+Programmed in C++11 using the following version of gcc:
+
+gcc (GCC) 6.2.1 20160916 (Red Hat 6.2.1-2)
+Copyright (C) 2016 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Binary filenames: fcfs, sjf, stcf
+
+to compile fcfs:
+    cd FCFS
+    make
+
+to compile sjf:
+    cd SJF
+    make
+
+to compile stcf:
+    cd SJF
+    make
+
+
+Makefile example:
+CFLAGS = -std=gnu++11 -Wall -Wextra -Wpedantic -O2
+
+all:
+	g++ -o fcfs fcfs.cpp Job.cpp helpers.cpp $(CFLAGS)
+
