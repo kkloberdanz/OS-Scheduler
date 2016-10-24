@@ -104,7 +104,7 @@ void Job::run_fcfs() {
 void Job::print_job_heap() {
     struct job j;
     while (!min_h.empty()) {
-        j = min_h.get_front();
+        j = min_h.peek();
         std::cout << "t_arrival  : " << j.t_arrival << std::endl;
         std::cout << "t_execution: " << j.t_execution << std::endl;
         min_h.pop();
@@ -126,12 +126,12 @@ void Job::run_sjf() {
 
         } else if ((not jobs_v.empty()) && (min_h.empty())) {
             if (jobs_v.back().t_arrival > t_current) {
-                t_current = jobs_v.at(jobs_v.size() - 1).t_arrival;
+                t_current = jobs_v.back().t_arrival;
             }
             get_jobs(t_current);
         }
 
-        current_job = min_h.get_front();
+        current_job = min_h.peek();
         min_h.pop();
 
         if (current_job.t_arrival > t_current) {
@@ -150,7 +150,7 @@ void Job::run_sjf() {
 void Job::get_jobs(size_t t_current) {
     while ((not jobs_v.empty()) && 
             jobs_v.back().t_arrival <= t_current) { 
-        min_h.add(jobs_v.at(jobs_v.size()-1));
+        min_h.add(jobs_v.back());
         jobs_v.pop_back();
     }
 }
