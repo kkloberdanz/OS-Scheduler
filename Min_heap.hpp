@@ -1,6 +1,7 @@
 #ifndef MIN_HEAP_HPP
 #define MIN_HEAP_HPP
 
+namespace kgk {
 template <typename T>
 class Min_heap {
   public:
@@ -83,5 +84,6 @@ class Min_heap {
 
     std::vector<T> heap_v;
 };
+} // namespace kgk
 
 #endif // MIN_HEAP_HPP

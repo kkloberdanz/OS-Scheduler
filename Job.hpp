@@ -33,7 +33,7 @@ class Job {
 
     std::vector<struct job> jobs_v;
 
-    Min_heap<job> min_h;
+    kgk::Min_heap<job> min_h;
 
     void print_job_heap();
 
@@ -53,7 +53,7 @@ class Job {
 
     void print_jobs();
 
-    static bool my_compare(struct job, struct job);
+    static bool my_heap_compare(struct job, struct job);
 
   public:
 
