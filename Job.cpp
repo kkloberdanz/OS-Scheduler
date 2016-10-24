@@ -6,42 +6,14 @@ Job::Job() {
 }
 
 void Job::build_from_file(const char* filename) {
-    //std::ifstream input_file;
-    //input_file.open(filename);
     FILE *fp;
     fp = fopen(filename, "r");
 
     std::string line;
-    size_t t_arrival = 0;
-    size_t t_execution = 0;
-
-
-    // first line of input file will be the number of jobs
-    //getline(input_file, line);
-
-    if (line.empty()) {
-        total_jobs = 0;
-    } else {
-        total_jobs = as_int(line);
-    }
+    size_t t_arrival = 0; size_t t_execution = 0; 
 
     // Read from input file
     size_t order = 0;
-        /*
-    std::string master_string = "";
-    while (getline(input_file, line)) { 
-        if (is_num(line)) { 
-            t_arrival = as_int(line);
-            getline(input_file, line);
-            t_execution = as_int(line);
-
-            push_job(order, t_arrival, t_execution);
-            order++;
-        }
-
-    } 
-        */
-
     char c;
     std::string num_str = "";
     std::vector<std::string> num_v;
@@ -54,8 +26,7 @@ void Job::build_from_file(const char* filename) {
         } else {
             num_str = ""; 
         }
-    }
-
+    } 
 
     if (num_v.size() > 0) { 
         std::reverse(num_v.begin(), num_v.end());
@@ -77,7 +48,6 @@ void Job::build_from_file(const char* filename) {
     }
 
     fclose(fp);
-    //input_file.close();
 }
 
 void Job::push_job(size_t order, size_t t_arrival, size_t t_execution) {
@@ -194,8 +164,7 @@ void Job::run_stcf() {
 
     stcf_sort(); 
 
-    while ((not min_h.empty()) || (not jobs_v.empty()) ) {
-
+    while ((not min_h.empty()) || (not jobs_v.empty()) ) { 
 
         if (not jobs_v.empty()) {
             get_jobs(t_current);
@@ -205,18 +174,9 @@ void Job::run_stcf() {
 
             if (not min_h.peek().started) {
                 t_total_response += t_current - min_h.peek().t_arrival;
-                //std::cout << "RESPONSE TIME: " << t_current - min_h.peek().t_arrival << std::endl;
-#ifdef DEBUG
-                std::cout << "current   : " << t_current << std::endl;
-                std::cout << "response  : " << t_total_response << std::endl;
-                std::cout << "turnaround: " << t_turnaround << std::endl;
-                std::cout  << std::endl;
-#endif
 
                 struct job tmp_job = min_h.peek();
                 min_h.pop();
-                //std::cout << "NEXT ON HEAP" << std::endl;
-                //print_job(min_h.peek());
                 tmp_job.started = true;
                 min_h.add(tmp_job);
             }
@@ -230,8 +190,6 @@ void Job::run_stcf() {
             } else {
                 current_job.t_exe_d--;
                 t_current++;
-                //std::cout << "Current Time: " << t_current << std::endl;
-                //print_job(current_job);
                 min_h.add(current_job);
             }
         } else {
@@ -259,7 +217,6 @@ void Job::sjf_sort() {
 }
 
 void Job::stcf_sort() {
-    //std::sort(jobs_v.begin(), jobs_v.end(), stcf_sort_by);
     std::stable_sort(jobs_v.begin(), jobs_v.end(), stcf_sort_by);
 }
 
