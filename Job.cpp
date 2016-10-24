@@ -107,7 +107,7 @@ void Job::print_job_heap() {
         j = min_h.peek();
         std::cout << "t_arrival  : " << j.t_arrival << std::endl;
         std::cout << "t_execution: " << j.t_execution << std::endl;
-        min_h.pop();
+        min_h.pop(my_compare);
     }
 }
 
@@ -132,7 +132,7 @@ void Job::run_sjf() {
         }
 
         current_job = min_h.peek();
-        min_h.pop();
+        min_h.pop(my_compare);
 
         if (current_job.t_arrival > t_current) {
             t_current = current_job.t_arrival;
@@ -150,7 +150,7 @@ void Job::run_sjf() {
 void Job::get_jobs(size_t t_current) {
     while ((not jobs_v.empty()) && 
             jobs_v.back().t_arrival <= t_current) { 
-        min_h.add(jobs_v.back());
+        min_h.add(jobs_v.back(), my_compare);
         jobs_v.pop_back();
     }
 }
@@ -176,13 +176,13 @@ void Job::run_stcf() {
                 t_total_response += t_current - min_h.peek().t_arrival;
 
                 struct job tmp_job = min_h.peek();
-                min_h.pop();
+                min_h.pop(my_compare);
                 tmp_job.started = true;
-                min_h.add(tmp_job);
+                min_h.add(tmp_job, my_compare);
             }
 
             current_job = min_h.peek();
-            min_h.pop();
+            min_h.pop(my_compare);
 
             if (current_job.t_exe_d == 0) { 
                 t_turnaround += t_current - current_job.t_arrival; 
@@ -190,7 +190,7 @@ void Job::run_stcf() {
             } else {
                 current_job.t_exe_d--;
                 t_current++;
-                min_h.add(current_job);
+                min_h.add(current_job, my_compare);
             }
         } else {
             t_current++;
@@ -244,4 +244,14 @@ bool Job::stcf_sort_by(struct job j1, struct job j2) {
     return sjf_sort_by(j1, j2);
 }
 
-
+bool Job::my_compare(struct job j1, struct job j2) {
+    if (j1.t_exe_d == j2.t_exe_d) {
+        if (j1.t_arrival == j2.t_arrival) {
+            return j1.order > j2.order;
+        } else {
+            return j1.t_arrival > j2.t_arrival;
+        }
+    } else {
+        return j1.t_exe_d > j2.t_exe_d;
+    }
+}

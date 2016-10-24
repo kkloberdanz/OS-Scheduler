@@ -53,6 +53,8 @@ class Job {
 
     void print_jobs();
 
+    static bool my_compare(struct job, struct job);
+
   public:
 
     Job();
