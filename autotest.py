@@ -46,12 +46,12 @@ def check_hashes(my_file, control_file):
 
 def run_test(my_programs, control_programs): 
     analysis = open("testanalysis.txt", "w")
+    num_timeouts = 0
     for i in range(len(my_programs)):
         my_prog = my_programs[i]
         cont_prog = control_programs[i]
         num_success = 0
         num_fails = 0
-        num_timeouts = 0
         total_tests  = 0
         for testfile in os.listdir("Tests"):
             testfile = "Tests/" + testfile
@@ -74,7 +74,8 @@ def run_test(my_programs, control_programs):
                 else:
                     num_fails += 1
 
-        num_timeouts = total_tests - (num_success + num_fails)
+
+        # num_timeouts = total_tests - (num_success + num_fails)
         analysis.write("Program: " + my_prog + "\n")
         analysis.write("    Total Tests     : " + str(total_tests) + "\n")
         analysis.write("    Successes       : " + str(num_success) + "\n")
@@ -82,7 +83,7 @@ def run_test(my_programs, control_programs):
         analysis.write("    Timeouts        : " + str(num_timeouts) + "\n\n")
         analysis.write("    Percent Success : %.2f" % (100*(num_success / total_tests)))
         analysis.write("%")
-        analysis.write("    Percent Timeouts: %.2f" % (100*(num_timeouts / total_tests)))
+        analysis.write("    Percent Timeouts: %.2f" % (100*(num_timeouts / (num_success + num_fails + num_timeouts))))
         analysis.write("%\n\n")
 
 def cleanup():
