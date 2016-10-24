@@ -92,6 +92,8 @@ def cleanup():
 try:
     my_programs = ["Bin/sjf", "Bin/fcfs", "Bin/stcf"]
     control_programs = ["./SJF", "./FCFS", "./STCF"]
+    # my_programs = ["Bin/stcf"]
+    # control_programs = ["./STCF"]
 
     run_test(my_programs, control_programs)
 

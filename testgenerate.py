@@ -6,13 +6,13 @@ import random
 
 def generate_test(out_filename): 
     out_file = open(out_filename, "w")
-    num_jobs = random.randint(0, 100)
+    num_jobs = random.randint(0, 4)
     # num_jobs = 4
     out_file.write(str(num_jobs) + "\n")
 
     for i in range(num_jobs):
         t_arrival   = random.randint(0, 100)
-        t_execution = random.randint(0, 100)
+        t_execution = random.randint(1, 100)
         out_file.write("\n\n")
         out_file.write(str(t_arrival) + "\n")
         out_file.write(str(t_execution) + "\n") 
