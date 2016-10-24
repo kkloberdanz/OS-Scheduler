@@ -86,9 +86,9 @@ void Job::run_fcfs() {
 
     fcfs_sort();
 
-    double t_current = 0;
-    double t_total_response = 0;
-    double t_turnaround = 0;
+    size_t t_current = 0;
+    size_t t_total_response = 0;
+    size_t t_turnaround = 0;
     for (auto j: jobs_v) { 
         if (j.t_arrival > t_current) {
             t_current = j.t_arrival;
